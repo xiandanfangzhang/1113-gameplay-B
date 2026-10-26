@@ -1,0 +1,1173 @@
+{
+  "verifiedAt": "2026-10-21T06:12:04.791Z",
+  "spacingRule": "Each dispatch occurs no earlier than its exact verified route tick, and at least 30 simulation ticks after the prior dispatch; if its road slot is occupied, wait until dispatchCar accepts it.",
+  "levels": [
+    {
+      "id": "pack-40-01",
+      "status": "won",
+      "ticks": 3701,
+      "peak": 5,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17001-1",
+          "column": 1,
+          "color": "R",
+          "capacity": 400,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17001-2",
+          "column": 2,
+          "color": "B",
+          "capacity": 200,
+          "roadBefore": 1,
+          "ballsLeft": 1580,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17001-4",
+          "column": 1,
+          "color": "B",
+          "capacity": 200,
+          "roadBefore": 2,
+          "ballsLeft": 1570,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 455,
+          "id": "L-17001-3",
+          "column": 3,
+          "color": "Y",
+          "capacity": 400,
+          "roadBefore": 3,
+          "ballsLeft": 1340,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 1426,
+          "id": "L-17001-5",
+          "column": 2,
+          "color": "G",
+          "capacity": 400,
+          "roadBefore": 4,
+          "ballsLeft": 880,
+          "bottomColors": [
+            "B",
+            "Y"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-02",
+      "status": "won",
+      "ticks": 2987,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17101-2",
+          "column": 2,
+          "color": "R",
+          "capacity": 235,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17101-1",
+          "column": 1,
+          "color": "B",
+          "capacity": 205,
+          "roadBefore": 1,
+          "ballsLeft": 1570,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17101-5",
+          "column": 2,
+          "color": "B",
+          "capacity": 205,
+          "roadBefore": 2,
+          "ballsLeft": 1570,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17101-4",
+          "column": 1,
+          "color": "R",
+          "capacity": 235,
+          "roadBefore": 3,
+          "ballsLeft": 1560,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 464,
+          "id": "L-17101-3",
+          "column": 3,
+          "color": "Y",
+          "capacity": 360,
+          "roadBefore": 4,
+          "ballsLeft": 1258,
+          "bottomColors": [
+            "B"
+          ]
+        },
+        {
+          "tick": 1359,
+          "id": "L-17101-6",
+          "column": 3,
+          "color": "G",
+          "capacity": 360,
+          "roadBefore": 5,
+          "ballsLeft": 789,
+          "bottomColors": [
+            "Y",
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-03",
+      "status": "won",
+      "ticks": 3039,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17201-3",
+          "column": 3,
+          "color": "R",
+          "capacity": 233,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17201-2",
+          "column": 2,
+          "color": "B",
+          "capacity": 234,
+          "roadBefore": 1,
+          "ballsLeft": 1573,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17201-6",
+          "column": 3,
+          "color": "B",
+          "capacity": 234,
+          "roadBefore": 2,
+          "ballsLeft": 1570,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17201-1",
+          "column": 1,
+          "color": "Y",
+          "capacity": 173,
+          "roadBefore": 3,
+          "ballsLeft": 1557,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 120,
+          "id": "L-17201-4",
+          "column": 1,
+          "color": "R",
+          "capacity": 233,
+          "roadBefore": 4,
+          "ballsLeft": 1535,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 150,
+          "id": "L-17201-7",
+          "column": 1,
+          "color": "G",
+          "capacity": 320,
+          "roadBefore": 5,
+          "ballsLeft": 1493,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 980,
+          "id": "L-17201-5",
+          "column": 2,
+          "color": "Y",
+          "capacity": 173,
+          "roadBefore": 5,
+          "ballsLeft": 987,
+          "bottomColors": [
+            "Y"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-04",
+      "status": "won",
+      "ticks": 3002,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17303-3",
+          "column": 3,
+          "color": "B",
+          "capacity": 240,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17303-6",
+          "column": 3,
+          "color": "R",
+          "capacity": 180,
+          "roadBefore": 1,
+          "ballsLeft": 1580,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17303-1",
+          "column": 1,
+          "color": "B",
+          "capacity": 240,
+          "roadBefore": 2,
+          "ballsLeft": 1570,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17303-2",
+          "column": 2,
+          "color": "G",
+          "capacity": 160,
+          "roadBefore": 3,
+          "ballsLeft": 1550,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 120,
+          "id": "L-17303-5",
+          "column": 2,
+          "color": "R",
+          "capacity": 180,
+          "roadBefore": 4,
+          "ballsLeft": 1538,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 150,
+          "id": "L-17303-4",
+          "column": 1,
+          "color": "Y",
+          "capacity": 220,
+          "roadBefore": 5,
+          "ballsLeft": 1500,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 1034,
+          "id": "L-17303-7",
+          "column": 1,
+          "color": "Y",
+          "capacity": 220,
+          "roadBefore": 5,
+          "ballsLeft": 1060,
+          "bottomColors": [
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 1514,
+          "id": "L-17303-8",
+          "column": 2,
+          "color": "G",
+          "capacity": 160,
+          "roadBefore": 5,
+          "ballsLeft": 860,
+          "bottomColors": [
+            "G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-05",
+      "status": "won",
+      "ticks": 3755,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17428-3",
+          "column": 3,
+          "color": "R",
+          "capacity": 208,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17428-1",
+          "column": 1,
+          "color": "B",
+          "capacity": 149,
+          "roadBefore": 1,
+          "ballsLeft": 1584,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17428-4",
+          "column": 1,
+          "color": "Y",
+          "capacity": 208,
+          "roadBefore": 2,
+          "ballsLeft": 1570,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17428-6",
+          "column": 3,
+          "color": "B",
+          "capacity": 149,
+          "roadBefore": 3,
+          "ballsLeft": 1568,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 120,
+          "id": "L-17428-7",
+          "column": 1,
+          "color": "Y",
+          "capacity": 208,
+          "roadBefore": 4,
+          "ballsLeft": 1534,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 361,
+          "id": "L-17428-2",
+          "column": 2,
+          "color": "G",
+          "capacity": 160,
+          "roadBefore": 5,
+          "ballsLeft": 1399,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 1349,
+          "id": "L-17428-9",
+          "column": 3,
+          "color": "G",
+          "capacity": 160,
+          "roadBefore": 5,
+          "ballsLeft": 832,
+          "bottomColors": [
+            "Y",
+            "G",
+            "R"
+          ]
+        },
+        {
+          "tick": 2329,
+          "id": "L-17428-5",
+          "column": 2,
+          "color": "B",
+          "capacity": 150,
+          "roadBefore": 5,
+          "ballsLeft": 536,
+          "bottomColors": [
+            "G",
+            "R"
+          ]
+        },
+        {
+          "tick": 2437,
+          "id": "L-17428-8",
+          "column": 2,
+          "color": "R",
+          "capacity": 208,
+          "roadBefore": 5,
+          "ballsLeft": 528,
+          "bottomColors": [
+            "R"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-06",
+      "status": "won",
+      "ticks": 3733,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17505-3",
+          "column": 3,
+          "color": "B",
+          "capacity": 206,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "Y",
+            "B"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17505-2",
+          "column": 2,
+          "color": "Y",
+          "capacity": 136,
+          "roadBefore": 1,
+          "ballsLeft": 1598,
+          "bottomColors": [
+            "R",
+            "Y",
+            "B"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17505-5",
+          "column": 2,
+          "color": "R",
+          "capacity": 128,
+          "roadBefore": 2,
+          "ballsLeft": 1586,
+          "bottomColors": [
+            "R",
+            "Y"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17505-6",
+          "column": 3,
+          "color": "Y",
+          "capacity": 136,
+          "roadBefore": 3,
+          "ballsLeft": 1556,
+          "bottomColors": [
+            "R",
+            "Y"
+          ]
+        },
+        {
+          "tick": 120,
+          "id": "L-17505-8",
+          "column": 2,
+          "color": "Y",
+          "capacity": 136,
+          "roadBefore": 4,
+          "ballsLeft": 1546,
+          "bottomColors": [
+            "R",
+            "Y"
+          ]
+        },
+        {
+          "tick": 150,
+          "id": "L-17505-1",
+          "column": 1,
+          "color": "G",
+          "capacity": 198,
+          "roadBefore": 5,
+          "ballsLeft": 1526,
+          "bottomColors": [
+            "R",
+            "Y"
+          ]
+        },
+        {
+          "tick": 1056,
+          "id": "L-17505-4",
+          "column": 1,
+          "color": "R",
+          "capacity": 128,
+          "roadBefore": 5,
+          "ballsLeft": 1104,
+          "bottomColors": [
+            "B",
+            "Y",
+            "R"
+          ]
+        },
+        {
+          "tick": 1680,
+          "id": "L-17505-7",
+          "column": 1,
+          "color": "B",
+          "capacity": 206,
+          "roadBefore": 5,
+          "ballsLeft": 734,
+          "bottomColors": [
+            "G",
+            "B"
+          ]
+        },
+        {
+          "tick": 1870,
+          "id": "L-17505-9",
+          "column": 3,
+          "color": "G",
+          "capacity": 198,
+          "roadBefore": 5,
+          "ballsLeft": 659,
+          "bottomColors": [
+            "G",
+            "Y",
+            "B"
+          ]
+        },
+        {
+          "tick": 2254,
+          "id": "L-17505-10",
+          "column": 1,
+          "color": "R",
+          "capacity": 128,
+          "roadBefore": 5,
+          "ballsLeft": 418,
+          "bottomColors": [
+            "G",
+            "R",
+            "Y"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-07",
+      "status": "won",
+      "ticks": 4297,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17601-2",
+          "column": 2,
+          "color": "R",
+          "capacity": 120,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17601-5",
+          "column": 2,
+          "color": "Y",
+          "capacity": 230,
+          "roadBefore": 1,
+          "ballsLeft": 1585,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17601-8",
+          "column": 2,
+          "color": "R",
+          "capacity": 120,
+          "roadBefore": 2,
+          "ballsLeft": 1585,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17601-1",
+          "column": 1,
+          "color": "B",
+          "capacity": 130,
+          "roadBefore": 3,
+          "ballsLeft": 1560,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 120,
+          "id": "L-17601-11",
+          "column": 2,
+          "color": "R",
+          "capacity": 120,
+          "roadBefore": 4,
+          "ballsLeft": 1530,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 361,
+          "id": "L-17601-4",
+          "column": 1,
+          "color": "G",
+          "capacity": 130,
+          "roadBefore": 5,
+          "ballsLeft": 1435,
+          "bottomColors": [
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 645,
+          "id": "L-17601-7",
+          "column": 1,
+          "color": "B",
+          "capacity": 130,
+          "roadBefore": 5,
+          "ballsLeft": 1310,
+          "bottomColors": [
+            "B",
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 1331,
+          "id": "L-17601-3",
+          "column": 3,
+          "color": "G",
+          "capacity": 130,
+          "roadBefore": 5,
+          "ballsLeft": 982,
+          "bottomColors": [
+            "G",
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 1361,
+          "id": "L-17601-6",
+          "column": 3,
+          "color": "G",
+          "capacity": 130,
+          "roadBefore": 5,
+          "ballsLeft": 930,
+          "bottomColors": [
+            "G",
+            "R",
+            "B"
+          ]
+        },
+        {
+          "tick": 1868,
+          "id": "L-17601-10",
+          "column": 1,
+          "color": "Y",
+          "capacity": 230,
+          "roadBefore": 5,
+          "ballsLeft": 570,
+          "bottomColors": [
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 2956,
+          "id": "L-17601-9",
+          "column": 3,
+          "color": "B",
+          "capacity": 130,
+          "roadBefore": 5,
+          "ballsLeft": 480,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-08",
+      "status": "won",
+      "ticks": 3397,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17701-3",
+          "column": 3,
+          "color": "B",
+          "capacity": 152,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17701-6",
+          "column": 3,
+          "color": "R",
+          "capacity": 110,
+          "roadBefore": 1,
+          "ballsLeft": 1592,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17701-9",
+          "column": 3,
+          "color": "G",
+          "capacity": 116,
+          "roadBefore": 2,
+          "ballsLeft": 1562,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17701-12",
+          "column": 3,
+          "color": "R",
+          "capacity": 109,
+          "roadBefore": 3,
+          "ballsLeft": 1560,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        },
+        {
+          "tick": 120,
+          "id": "L-17701-2",
+          "column": 2,
+          "color": "Y",
+          "capacity": 156,
+          "roadBefore": 4,
+          "ballsLeft": 1528,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        },
+        {
+          "tick": 150,
+          "id": "L-17701-5",
+          "column": 2,
+          "color": "R",
+          "capacity": 109,
+          "roadBefore": 5,
+          "ballsLeft": 1516,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        },
+        {
+          "tick": 554,
+          "id": "L-17701-8",
+          "column": 2,
+          "color": "B",
+          "capacity": 152,
+          "roadBefore": 5,
+          "ballsLeft": 1338,
+          "bottomColors": [
+            "Y",
+            "B"
+          ]
+        },
+        {
+          "tick": 1106,
+          "id": "L-17701-1",
+          "column": 1,
+          "color": "Y",
+          "capacity": 156,
+          "roadBefore": 5,
+          "ballsLeft": 1120,
+          "bottomColors": [
+            "G",
+            "Y"
+          ]
+        },
+        {
+          "tick": 1496,
+          "id": "L-17701-11",
+          "column": 2,
+          "color": "G",
+          "capacity": 116,
+          "roadBefore": 5,
+          "ballsLeft": 934,
+          "bottomColors": [
+            "R",
+            "G",
+            "Y"
+          ]
+        },
+        {
+          "tick": 1956,
+          "id": "L-17701-4",
+          "column": 1,
+          "color": "G",
+          "capacity": 116,
+          "roadBefore": 5,
+          "ballsLeft": 662,
+          "bottomColors": [
+            "B",
+            "R",
+            "G"
+          ]
+        },
+        {
+          "tick": 2100,
+          "id": "L-17701-7",
+          "column": 1,
+          "color": "B",
+          "capacity": 152,
+          "roadBefore": 5,
+          "ballsLeft": 558,
+          "bottomColors": [
+            "B",
+            "R"
+          ]
+        },
+        {
+          "tick": 2186,
+          "id": "L-17701-10",
+          "column": 1,
+          "color": "Y",
+          "capacity": 156,
+          "roadBefore": 5,
+          "ballsLeft": 488,
+          "bottomColors": [
+            "Y",
+            "B",
+            "R"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pack-40-09",
+      "status": "won",
+      "ticks": 4078,
+      "peak": 6,
+      "dispatches": [
+        {
+          "tick": 0,
+          "id": "L-17803-2",
+          "column": 2,
+          "color": "Y",
+          "capacity": 111,
+          "roadBefore": 0,
+          "ballsLeft": 1600,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 30,
+          "id": "L-17803-1",
+          "column": 1,
+          "color": "R",
+          "capacity": 120,
+          "roadBefore": 1,
+          "ballsLeft": 1596,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 60,
+          "id": "L-17803-4",
+          "column": 1,
+          "color": "G",
+          "capacity": 121,
+          "roadBefore": 2,
+          "ballsLeft": 1582,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 90,
+          "id": "L-17803-3",
+          "column": 3,
+          "color": "B",
+          "capacity": 144,
+          "roadBefore": 3,
+          "ballsLeft": 1576,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 120,
+          "id": "L-17803-5",
+          "column": 2,
+          "color": "Y",
+          "capacity": 111,
+          "roadBefore": 4,
+          "ballsLeft": 1568,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 150,
+          "id": "L-17803-8",
+          "column": 2,
+          "color": "G",
+          "capacity": 121,
+          "roadBefore": 5,
+          "ballsLeft": 1544,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y",
+            "G"
+          ]
+        },
+        {
+          "tick": 874,
+          "id": "L-17803-6",
+          "column": 3,
+          "color": "B",
+          "capacity": 144,
+          "roadBefore": 5,
+          "ballsLeft": 1158,
+          "bottomColors": [
+            "B",
+            "Y",
+            "R"
+          ]
+        },
+        {
+          "tick": 1018,
+          "id": "L-17803-7",
+          "column": 1,
+          "color": "G",
+          "capacity": 122,
+          "roadBefore": 5,
+          "ballsLeft": 1060,
+          "bottomColors": [
+            "B",
+            "Y",
+            "G",
+            "R"
+          ]
+        },
+        {
+          "tick": 1427,
+          "id": "L-17803-10",
+          "column": 1,
+          "color": "Y",
+          "capacity": 111,
+          "roadBefore": 5,
+          "ballsLeft": 889,
+          "bottomColors": [
+            "G",
+            "R",
+            "Y"
+          ]
+        },
+        {
+          "tick": 1457,
+          "id": "L-17803-13",
+          "column": 1,
+          "color": "R",
+          "capacity": 120,
+          "roadBefore": 5,
+          "ballsLeft": 870,
+          "bottomColors": [
+            "G",
+            "R",
+            "Y"
+          ]
+        },
+        {
+          "tick": 1817,
+          "id": "L-17803-9",
+          "column": 3,
+          "color": "B",
+          "capacity": 144,
+          "roadBefore": 5,
+          "ballsLeft": 679,
+          "bottomColors": [
+            "R",
+            "B",
+            "Y"
+          ]
+        },
+        {
+          "tick": 2865,
+          "id": "L-17803-12",
+          "column": 3,
+          "color": "R",
+          "capacity": 120,
+          "roadBefore": 5,
+          "ballsLeft": 528,
+          "bottomColors": [
+            "R"
+          ]
+        },
+        {
+          "tick": 3201,
+          "id": "L-17803-11",
+          "column": 2,
+          "color": "Y",
+          "capacity": 111,
+          "roadBefore": 5,
+          "ballsLeft": 324,
+          "bottomColors": [
+            "B",
+            "Y",
+            "R"
+          ]
+        }
+      ]
+    }
+  ]
+}

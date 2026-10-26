@@ -1,0 +1,4615 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-22",
+  "reference": "level-pack-40x40",
+  "levels": [
+    {
+      "file": "level-01.json",
+      "id": "matched-40-01",
+      "name": "第 1 关 · 首辆补车",
+      "ballSeed": 94000,
+      "garageSeed": 950001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "P",
+            "capacity": 260,
+            "id": "matched-01-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "R",
+            "capacity": 230,
+            "id": "matched-01-c1-s2",
+            "slot": 1
+          }
+        ],
+        [
+          {
+            "color": "Y",
+            "capacity": 270,
+            "id": "matched-01-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "B",
+            "capacity": 270,
+            "id": "matched-01-c2-s2",
+            "slot": 1
+          },
+          {
+            "color": "R",
+            "capacity": 40,
+            "id": "matched-01-c2-s3",
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "color": "G",
+            "capacity": 270,
+            "id": "matched-01-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "O",
+            "capacity": 260,
+            "id": "matched-01-c3-s2",
+            "slot": 1
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "Y",
+        "B",
+        "O"
+      ],
+      "adjacentSameRatio": 0.3612179487179487,
+      "exposure": {
+        "firstBottomTick": {
+          "R": 0,
+          "Y": 0,
+          "B": 0,
+          "O": 0,
+          "P": 264,
+          "G": 337
+        },
+        "bottomSetChanges": 130
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3280,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-01-c1-s1",
+            "color": "P",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-01-c2-s1",
+            "color": "Y",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-01-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-01-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-01-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 4,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-01-c3-s2",
+            "color": "O",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1597,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 2490,
+            "id": "matched-01-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 368,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y",
+              "G",
+              "P"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3523,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-01-c1-s1",
+            "color": "P",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-01-c2-s1",
+            "color": "Y",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-01-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 2,
+            "ballsLeft": 1594,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-01-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 3,
+            "ballsLeft": 1590,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-01-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 4,
+            "ballsLeft": 1572,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-01-c3-s2",
+            "color": "O",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1562,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 2603,
+            "id": "matched-01-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 411,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 3352,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 3171,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3349,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-02.json",
+      "id": "matched-40-02",
+      "name": "第 2 关 · 双车接力",
+      "ballSeed": 94149,
+      "garageSeed": 960003,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "B",
+            "capacity": 230,
+            "id": "matched-02-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "R",
+            "capacity": 230,
+            "id": "matched-02-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "B",
+            "capacity": 40,
+            "id": "matched-02-c1-s3",
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "color": "P",
+            "capacity": 260,
+            "id": "matched-02-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "G",
+            "capacity": 270,
+            "id": "matched-02-c2-s2",
+            "slot": 1
+          }
+        ],
+        [
+          {
+            "color": "Y",
+            "capacity": 270,
+            "id": "matched-02-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "O",
+            "capacity": 260,
+            "id": "matched-02-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "R",
+            "capacity": 40,
+            "id": "matched-02-c3-s3",
+            "slot": 2
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "O",
+        "B",
+        "G"
+      ],
+      "adjacentSameRatio": 0.3907051282051282,
+      "exposure": {
+        "firstBottomTick": {
+          "R": 0,
+          "O": 0,
+          "B": 0,
+          "G": 0,
+          "Y": 233,
+          "P": 354
+        },
+        "bottomSetChanges": 136
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3256,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-02-c1-s1",
+            "color": "B",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-02-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-02-c3-s1",
+            "color": "Y",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-02-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-02-c2-s2",
+            "color": "G",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 4,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-02-c3-s2",
+            "color": "O",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2082,
+            "id": "matched-02-c3-s3",
+            "color": "R",
+            "column": 3,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 553,
+            "bottomColors": [
+              "G",
+              "O",
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 2738,
+            "id": "matched-02-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 222,
+            "bottomColors": [
+              "O",
+              "B",
+              "P",
+              "G",
+              "Y",
+              "R"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3409,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-02-c1-s1",
+            "color": "B",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-02-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1591,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-02-c3-s1",
+            "color": "Y",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 2,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-02-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 3,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-02-c2-s2",
+            "color": "G",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 4,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "R",
+              "O",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-02-c3-s2",
+            "color": "O",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1545,
+            "bottomColors": [
+              "R",
+              "O",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 2262,
+            "id": "matched-02-c3-s3",
+            "color": "R",
+            "column": 3,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 525,
+            "bottomColors": [
+              "G",
+              "O",
+              "Y",
+              "B",
+              "R",
+              "P"
+            ]
+          },
+          {
+            "tick": 2836,
+            "id": "matched-02-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 250,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "G",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 3590,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 3284,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3375,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-03.json",
+      "id": "matched-40-03",
+      "name": "第 3 关 · 关键列头",
+      "ballSeed": 94298,
+      "garageSeed": 970004,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "Y",
+            "capacity": 220,
+            "id": "matched-03-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "O",
+            "capacity": 260,
+            "id": "matched-03-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "Y",
+            "capacity": 50,
+            "id": "matched-03-c1-s3",
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "color": "P",
+            "capacity": 260,
+            "id": "matched-03-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "B",
+            "capacity": 220,
+            "id": "matched-03-c2-s2",
+            "slot": 1
+          },
+          {
+            "color": "R",
+            "capacity": 50,
+            "id": "matched-03-c2-s3",
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "color": "R",
+            "capacity": 220,
+            "id": "matched-03-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "G",
+            "capacity": 270,
+            "id": "matched-03-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "B",
+            "capacity": 50,
+            "id": "matched-03-c3-s3",
+            "slot": 2
+          }
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "R",
+        "Y",
+        "G"
+      ],
+      "adjacentSameRatio": 0.38269230769230766,
+      "exposure": {
+        "firstBottomTick": {
+          "B": 0,
+          "R": 0,
+          "Y": 0,
+          "G": 0,
+          "P": 327,
+          "O": 328
+        },
+        "bottomSetChanges": 147
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3388,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-03-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-03-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-03-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-03-c1-s2",
+            "color": "O",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-03-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 220,
+            "roadBefore": 4,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-03-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 5,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2392,
+            "id": "matched-03-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 410,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "Y",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2401,
+            "id": "matched-03-c1-s3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 396,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "Y",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2618,
+            "id": "matched-03-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 287,
+            "bottomColors": [
+              "O",
+              "P",
+              "G",
+              "R",
+              "B",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3364,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-03-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-03-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1595,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-03-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 2,
+            "ballsLeft": 1595,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-03-c1-s2",
+            "color": "O",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 3,
+            "ballsLeft": 1583,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-03-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 220,
+            "roadBefore": 4,
+            "ballsLeft": 1575,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-03-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 5,
+            "ballsLeft": 1556,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2416,
+            "id": "matched-03-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 421,
+            "bottomColors": [
+              "O",
+              "R",
+              "G",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 2489,
+            "id": "matched-03-c1-s3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 385,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "Y",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 2762,
+            "id": "matched-03-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 244,
+            "bottomColors": [
+              "Y",
+              "R",
+              "G",
+              "P",
+              "O",
+              "B"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 3387,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1468,
+          "ballsLeft": 1405,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1471,
+          "ballsLeft": 1405,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-04.json",
+      "id": "matched-40-04",
+      "name": "第 4 关 · 跨列换位",
+      "ballSeed": 94447,
+      "garageSeed": 980005,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "G",
+            "capacity": 220,
+            "id": "matched-04-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "B",
+            "capacity": 220,
+            "id": "matched-04-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "Y",
+            "capacity": 50,
+            "id": "matched-04-c1-s3",
+            "slot": 2
+          },
+          {
+            "color": "B",
+            "capacity": 50,
+            "id": "matched-04-c1-s4",
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "color": "R",
+            "capacity": 220,
+            "id": "matched-04-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "P",
+            "capacity": 260,
+            "id": "matched-04-c2-s2",
+            "slot": 1
+          }
+        ],
+        [
+          {
+            "color": "O",
+            "capacity": 260,
+            "id": "matched-04-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "Y",
+            "capacity": 220,
+            "id": "matched-04-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "G",
+            "capacity": 50,
+            "id": "matched-04-c3-s3",
+            "slot": 2
+          },
+          {
+            "color": "R",
+            "capacity": 50,
+            "id": "matched-04-c3-s4",
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "G",
+        "O",
+        "R"
+      ],
+      "adjacentSameRatio": 0.3698717948717949,
+      "exposure": {
+        "firstBottomTick": {
+          "G": 0,
+          "O": 0,
+          "R": 0,
+          "B": 62,
+          "P": 233,
+          "Y": 248
+        },
+        "bottomSetChanges": 163
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3354,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-04-c1-s1",
+            "color": "G",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-04-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 220,
+            "roadBefore": 1,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-04-c3-s1",
+            "color": "O",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 2,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-04-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 3,
+            "ballsLeft": 1597,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-04-c2-s2",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 4,
+            "ballsLeft": 1596,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-04-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 5,
+            "ballsLeft": 1595,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2409,
+            "id": "matched-04-c3-s3",
+            "color": "G",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 396,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "Y",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2518,
+            "id": "matched-04-c3-s4",
+            "color": "R",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 352,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "O",
+              "P",
+              "G"
+            ]
+          },
+          {
+            "tick": 2735,
+            "id": "matched-04-c1-s3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 256,
+            "bottomColors": [
+              "B",
+              "Y",
+              "R",
+              "G",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 3086,
+            "id": "matched-04-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 127,
+            "bottomColors": [
+              "B",
+              "P",
+              "G",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3610,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-04-c1-s1",
+            "color": "G",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-04-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 220,
+            "roadBefore": 1,
+            "ballsLeft": 1583,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-04-c3-s1",
+            "color": "O",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 2,
+            "ballsLeft": 1571,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-04-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 3,
+            "ballsLeft": 1560,
+            "bottomColors": [
+              "G",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-04-c2-s2",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 4,
+            "ballsLeft": 1551,
+            "bottomColors": [
+              "B",
+              "R",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-04-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 5,
+            "ballsLeft": 1530,
+            "bottomColors": [
+              "B",
+              "R",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 2426,
+            "id": "matched-04-c3-s3",
+            "color": "G",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 443,
+            "bottomColors": [
+              "B",
+              "R",
+              "G",
+              "O",
+              "Y",
+              "P"
+            ]
+          },
+          {
+            "tick": 2713,
+            "id": "matched-04-c3-s4",
+            "color": "R",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 341,
+            "bottomColors": [
+              "Y",
+              "R",
+              "B",
+              "O",
+              "P",
+              "G"
+            ]
+          },
+          {
+            "tick": 2941,
+            "id": "matched-04-c1-s3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 239,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R",
+              "G"
+            ]
+          },
+          {
+            "tick": 3283,
+            "id": "matched-04-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 121,
+            "bottomColors": [
+              "O",
+              "P",
+              "B",
+              "G",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 1262,
+          "ballsLeft": 1249,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 5029,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 3168,
+          "ballsLeft": 1247,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-05.json",
+      "id": "matched-40-05",
+      "name": "第 5 关 · 保留通道",
+      "ballSeed": 94596,
+      "garageSeed": 990077,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "R",
+            "capacity": 210,
+            "id": "matched-05-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "Y",
+            "capacity": 210,
+            "id": "matched-05-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "O",
+            "capacity": 60,
+            "id": "matched-05-c1-s3",
+            "slot": 2
+          },
+          {
+            "color": "B",
+            "capacity": 60,
+            "id": "matched-05-c1-s4",
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "color": "P",
+            "capacity": 260,
+            "id": "matched-05-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "O",
+            "capacity": 200,
+            "id": "matched-05-c2-s2",
+            "slot": 1
+          },
+          {
+            "color": "R",
+            "capacity": 60,
+            "id": "matched-05-c2-s3",
+            "slot": 2
+          },
+          {
+            "color": "G",
+            "capacity": 60,
+            "id": "matched-05-c2-s4",
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "color": "B",
+            "capacity": 210,
+            "id": "matched-05-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "G",
+            "capacity": 210,
+            "id": "matched-05-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "Y",
+            "capacity": 60,
+            "id": "matched-05-c3-s3",
+            "slot": 2
+          }
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "O",
+        "R",
+        "Y"
+      ],
+      "adjacentSameRatio": 0.3647435897435897,
+      "exposure": {
+        "firstBottomTick": {
+          "B": 0,
+          "O": 0,
+          "R": 0,
+          "Y": 0,
+          "G": 287,
+          "P": 334
+        },
+        "bottomSetChanges": 181
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3401,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-05-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-05-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-05-c3-s1",
+            "color": "B",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-05-c1-s2",
+            "color": "Y",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-05-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-05-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2175,
+            "id": "matched-05-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 518,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "B",
+              "G",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2305,
+            "id": "matched-05-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 436,
+            "bottomColors": [
+              "G",
+              "Y",
+              "P",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2499,
+            "id": "matched-05-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 359,
+            "bottomColors": [
+              "O",
+              "Y",
+              "B",
+              "R",
+              "P",
+              "G"
+            ]
+          },
+          {
+            "tick": 2711,
+            "id": "matched-05-c2-s4",
+            "color": "G",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 276,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2942,
+            "id": "matched-05-c3-s3",
+            "color": "Y",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 181,
+            "bottomColors": [
+              "Y",
+              "P",
+              "O",
+              "B",
+              "G",
+              "R"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3494,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-05-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-05-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1596,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-05-c3-s1",
+            "color": "B",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 2,
+            "ballsLeft": 1595,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-05-c1-s2",
+            "color": "Y",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1583,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-05-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1573,
+            "bottomColors": [
+              "B",
+              "O",
+              "Y",
+              "R"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-05-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1552,
+            "bottomColors": [
+              "B",
+              "O",
+              "Y",
+              "R"
+            ]
+          },
+          {
+            "tick": 2287,
+            "id": "matched-05-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 516,
+            "bottomColors": [
+              "G",
+              "O",
+              "P",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2354,
+            "id": "matched-05-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 470,
+            "bottomColors": [
+              "G",
+              "R",
+              "P",
+              "Y",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2647,
+            "id": "matched-05-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 333,
+            "bottomColors": [
+              "G",
+              "Y",
+              "B",
+              "P",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 2812,
+            "id": "matched-05-c2-s4",
+            "color": "G",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 276,
+            "bottomColors": [
+              "G",
+              "P",
+              "Y",
+              "R",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2942,
+            "id": "matched-05-c3-s3",
+            "color": "Y",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 222,
+            "bottomColors": [
+              "B",
+              "Y",
+              "R",
+              "P",
+              "O",
+              "G"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 1244,
+          "ballsLeft": 1276,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2230,
+          "ballsLeft": 947,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3970,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-06.json",
+      "id": "matched-40-06",
+      "name": "第 6 关 · 折返调度",
+      "ballSeed": 94745,
+      "garageSeed": 1000090,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "O",
+            "capacity": 200,
+            "id": "matched-06-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "G",
+            "capacity": 210,
+            "id": "matched-06-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "G",
+            "capacity": 60,
+            "id": "matched-06-c1-s3",
+            "slot": 2
+          },
+          {
+            "color": "Y",
+            "capacity": 60,
+            "id": "matched-06-c1-s4",
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "color": "R",
+            "capacity": 210,
+            "id": "matched-06-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "B",
+            "capacity": 210,
+            "id": "matched-06-c2-s2",
+            "slot": 1
+          },
+          {
+            "color": "P",
+            "capacity": 60,
+            "id": "matched-06-c2-s3",
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "color": "Y",
+            "capacity": 210,
+            "id": "matched-06-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "P",
+            "capacity": 200,
+            "id": "matched-06-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "O",
+            "capacity": 60,
+            "id": "matched-06-c3-s3",
+            "slot": 2
+          },
+          {
+            "color": "B",
+            "capacity": 60,
+            "id": "matched-06-c3-s4",
+            "slot": 3
+          },
+          {
+            "color": "R",
+            "capacity": 60,
+            "id": "matched-06-c3-s5",
+            "slot": 4
+          }
+        ]
+      ],
+      "initialBottom": [
+        "P",
+        "Y",
+        "R",
+        "B",
+        "G"
+      ],
+      "adjacentSameRatio": 0.37275641025641026,
+      "exposure": {
+        "firstBottomTick": {
+          "P": 0,
+          "Y": 0,
+          "R": 0,
+          "B": 0,
+          "G": 0,
+          "O": 291
+        },
+        "bottomSetChanges": 167
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3392,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-06-c1-s1",
+            "color": "O",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-06-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-06-c3-s1",
+            "color": "Y",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-06-c1-s2",
+            "color": "G",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-06-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-06-c3-s2",
+            "color": "P",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2290,
+            "id": "matched-06-c3-s3",
+            "color": "O",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 489,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 2306,
+            "id": "matched-06-c1-s3",
+            "color": "G",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 467,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 2386,
+            "id": "matched-06-c3-s4",
+            "color": "B",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 440,
+            "bottomColors": [
+              "O",
+              "Y",
+              "G",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2491,
+            "id": "matched-06-c3-s5",
+            "color": "R",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 386,
+            "bottomColors": [
+              "O",
+              "Y",
+              "G",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2824,
+            "id": "matched-06-c2-s3",
+            "color": "P",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 226,
+            "bottomColors": [
+              "Y",
+              "G",
+              "B",
+              "R",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2931,
+            "id": "matched-06-c1-s4",
+            "color": "Y",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 177,
+            "bottomColors": [
+              "Y",
+              "G",
+              "B",
+              "O",
+              "R",
+              "P"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3537,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-06-c1-s1",
+            "color": "O",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-06-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-06-c3-s1",
+            "color": "Y",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 2,
+            "ballsLeft": 1597,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-06-c1-s2",
+            "color": "G",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1591,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-06-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1584,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-06-c3-s2",
+            "color": "P",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1579,
+            "bottomColors": [
+              "P",
+              "Y",
+              "G",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2290,
+            "id": "matched-06-c3-s3",
+            "color": "O",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 532,
+            "bottomColors": [
+              "R",
+              "G",
+              "P",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2415,
+            "id": "matched-06-c1-s3",
+            "color": "G",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 467,
+            "bottomColors": [
+              "G",
+              "Y",
+              "B",
+              "R",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2474,
+            "id": "matched-06-c3-s4",
+            "color": "B",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 417,
+            "bottomColors": [
+              "O",
+              "B",
+              "Y",
+              "R",
+              "G",
+              "P"
+            ]
+          },
+          {
+            "tick": 2533,
+            "id": "matched-06-c3-s5",
+            "color": "R",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 394,
+            "bottomColors": [
+              "O",
+              "Y",
+              "G",
+              "P",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2861,
+            "id": "matched-06-c2-s3",
+            "color": "P",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 228,
+            "bottomColors": [
+              "B",
+              "G",
+              "Y",
+              "R",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 2977,
+            "id": "matched-06-c1-s4",
+            "color": "Y",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 173,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "O",
+              "R"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 6418,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1254,
+          "ballsLeft": 1306,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1254,
+          "ballsLeft": 1306,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-07.json",
+      "id": "matched-40-07",
+      "name": "第 7 关 · 多层挡车",
+      "ballSeed": 94894,
+      "garageSeed": 1010001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "Y",
+            "capacity": 210,
+            "id": "matched-07-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "R",
+            "capacity": 150,
+            "id": "matched-07-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "B",
+            "capacity": 60,
+            "id": "matched-07-c1-s3",
+            "slot": 2
+          },
+          {
+            "color": "O",
+            "capacity": 60,
+            "id": "matched-07-c1-s4",
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "color": "O",
+            "capacity": 200,
+            "id": "matched-07-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "G",
+            "capacity": 210,
+            "id": "matched-07-c2-s2",
+            "slot": 1
+          },
+          {
+            "color": "R",
+            "capacity": 60,
+            "id": "matched-07-c2-s3",
+            "slot": 2
+          },
+          {
+            "color": "G",
+            "capacity": 60,
+            "id": "matched-07-c2-s4",
+            "slot": 3
+          },
+          {
+            "color": "Y",
+            "capacity": 60,
+            "id": "matched-07-c2-s5",
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "color": "B",
+            "capacity": 210,
+            "id": "matched-07-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "P",
+            "capacity": 200,
+            "id": "matched-07-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "P",
+            "capacity": 60,
+            "id": "matched-07-c3-s3",
+            "slot": 2
+          },
+          {
+            "color": "R",
+            "capacity": 60,
+            "id": "matched-07-c3-s4",
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "G",
+        "O",
+        "B",
+        "R"
+      ],
+      "adjacentSameRatio": 0.4342948717948718,
+      "exposure": {
+        "firstBottomTick": {
+          "G": 0,
+          "O": 0,
+          "B": 0,
+          "R": 0,
+          "P": 312,
+          "Y": 475
+        },
+        "bottomSetChanges": 168
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3920,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-07-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-07-c2-s1",
+            "color": "O",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-07-c3-s1",
+            "color": "B",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-07-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 150,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-07-c2-s2",
+            "color": "G",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-07-c3-s2",
+            "color": "P",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 1230,
+            "id": "matched-07-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 995,
+            "bottomColors": [
+              "P",
+              "O",
+              "Y",
+              "G",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2286,
+            "id": "matched-07-c2-s4",
+            "color": "G",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 502,
+            "bottomColors": [
+              "P",
+              "O",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2331,
+            "id": "matched-07-c3-s3",
+            "color": "P",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 467,
+            "bottomColors": [
+              "P",
+              "O",
+              "B",
+              "Y",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 2410,
+            "id": "matched-07-c2-s5",
+            "color": "Y",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 432,
+            "bottomColors": [
+              "Y",
+              "R",
+              "B",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 2919,
+            "id": "matched-07-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 289,
+            "bottomColors": [
+              "B",
+              "R",
+              "G",
+              "Y"
+            ]
+          },
+          {
+            "tick": 3148,
+            "id": "matched-07-c1-s4",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 237,
+            "bottomColors": [
+              "O",
+              "R",
+              "G",
+              "Y",
+              "B"
+            ]
+          },
+          {
+            "tick": 3465,
+            "id": "matched-07-c3-s4",
+            "color": "R",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 153,
+            "bottomColors": [
+              "R",
+              "B",
+              "P",
+              "O",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 4013,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-07-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-07-c2-s1",
+            "color": "O",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-07-c3-s1",
+            "color": "B",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 2,
+            "ballsLeft": 1597,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-07-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 150,
+            "roadBefore": 3,
+            "ballsLeft": 1586,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-07-c2-s2",
+            "color": "G",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1583,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-07-c3-s2",
+            "color": "P",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1559,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 1392,
+            "id": "matched-07-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 957,
+            "bottomColors": [
+              "G",
+              "R",
+              "Y",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2287,
+            "id": "matched-07-c2-s4",
+            "color": "G",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 520,
+            "bottomColors": [
+              "P",
+              "R",
+              "O",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2331,
+            "id": "matched-07-c3-s3",
+            "color": "P",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 504,
+            "bottomColors": [
+              "P",
+              "R",
+              "O",
+              "B",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2494,
+            "id": "matched-07-c2-s5",
+            "color": "Y",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 439,
+            "bottomColors": [
+              "O",
+              "R",
+              "Y",
+              "P",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 3015,
+            "id": "matched-07-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 307,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 3274,
+            "id": "matched-07-c1-s4",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 241,
+            "bottomColors": [
+              "O",
+              "R",
+              "Y",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 3465,
+            "id": "matched-07-c3-s4",
+            "color": "R",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 188,
+            "bottomColors": [
+              "R",
+              "P",
+              "O",
+              "B",
+              "Y",
+              "G"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 1042,
+          "ballsLeft": 1292,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 936,
+          "ballsLeft": 1199,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2114,
+          "ballsLeft": 1239,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-08.json",
+      "id": "matched-40-08",
+      "name": "第 8 关 · 双色底排",
+      "ballSeed": 95043,
+      "garageSeed": 1020003,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "Y",
+            "capacity": 200,
+            "id": "matched-08-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "O",
+            "capacity": 190,
+            "id": "matched-08-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "G",
+            "capacity": 70,
+            "id": "matched-08-c1-s3",
+            "slot": 2
+          },
+          {
+            "color": "P",
+            "capacity": 70,
+            "id": "matched-08-c1-s4",
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "color": "P",
+            "capacity": 190,
+            "id": "matched-08-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "B",
+            "capacity": 130,
+            "id": "matched-08-c2-s2",
+            "slot": 1
+          },
+          {
+            "color": "R",
+            "capacity": 70,
+            "id": "matched-08-c2-s3",
+            "slot": 2
+          },
+          {
+            "color": "B",
+            "capacity": 70,
+            "id": "matched-08-c2-s4",
+            "slot": 3
+          },
+          {
+            "color": "O",
+            "capacity": 70,
+            "id": "matched-08-c2-s5",
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "color": "G",
+            "capacity": 200,
+            "id": "matched-08-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "R",
+            "capacity": 130,
+            "id": "matched-08-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "Y",
+            "capacity": 70,
+            "id": "matched-08-c3-s3",
+            "slot": 2
+          },
+          {
+            "color": "B",
+            "capacity": 70,
+            "id": "matched-08-c3-s4",
+            "slot": 3
+          },
+          {
+            "color": "R",
+            "capacity": 70,
+            "id": "matched-08-c3-s5",
+            "slot": 4
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B"
+      ],
+      "adjacentSameRatio": 0.425,
+      "exposure": {
+        "firstBottomTick": {
+          "R": 0,
+          "B": 0,
+          "Y": 181,
+          "P": 259,
+          "O": 282,
+          "G": 348
+        },
+        "bottomSetChanges": 173
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3824,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-08-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-08-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-08-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-08-c1-s2",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-08-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 130,
+            "roadBefore": 4,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-08-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 878,
+            "id": "matched-08-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 1167,
+            "bottomColors": [
+              "R",
+              "G",
+              "B",
+              "O",
+              "P",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1214,
+            "id": "matched-08-c2-s4",
+            "color": "B",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 993,
+            "bottomColors": [
+              "P",
+              "O",
+              "Y",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 1755,
+            "id": "matched-08-c2-s5",
+            "color": "O",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 729,
+            "bottomColors": [
+              "G",
+              "P",
+              "O",
+              "Y",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2105,
+            "id": "matched-08-c3-s3",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 551,
+            "bottomColors": [
+              "R",
+              "G",
+              "P",
+              "Y",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2294,
+            "id": "matched-08-c3-s4",
+            "color": "B",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 481,
+            "bottomColors": [
+              "R",
+              "O",
+              "G",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 2525,
+            "id": "matched-08-c1-s3",
+            "color": "G",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 374,
+            "bottomColors": [
+              "R",
+              "P",
+              "Y",
+              "O",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 2606,
+            "id": "matched-08-c1-s4",
+            "color": "P",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 351,
+            "bottomColors": [
+              "R",
+              "P",
+              "G",
+              "O",
+              "Y",
+              "B"
+            ]
+          },
+          {
+            "tick": 3324,
+            "id": "matched-08-c3-s5",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 185,
+            "bottomColors": [
+              "R",
+              "G",
+              "Y",
+              "P"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3863,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-08-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-08-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-08-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-08-c1-s2",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-08-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 130,
+            "roadBefore": 4,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-08-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 1582,
+            "bottomColors": [
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 1030,
+            "id": "matched-08-c2-s3",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 1157,
+            "bottomColors": [
+              "R",
+              "G",
+              "O",
+              "B",
+              "P",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1345,
+            "id": "matched-08-c2-s4",
+            "color": "B",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 1000,
+            "bottomColors": [
+              "P",
+              "O",
+              "B",
+              "G",
+              "Y",
+              "R"
+            ]
+          },
+          {
+            "tick": 1849,
+            "id": "matched-08-c2-s5",
+            "color": "O",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 747,
+            "bottomColors": [
+              "R",
+              "O",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2140,
+            "id": "matched-08-c3-s3",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 577,
+            "bottomColors": [
+              "P",
+              "Y",
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2333,
+            "id": "matched-08-c3-s4",
+            "color": "B",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 482,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2535,
+            "id": "matched-08-c1-s3",
+            "color": "G",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 391,
+            "bottomColors": [
+              "R",
+              "P",
+              "Y",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 2876,
+            "id": "matched-08-c1-s4",
+            "color": "P",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 311,
+            "bottomColors": [
+              "R",
+              "P",
+              "G",
+              "Y"
+            ]
+          },
+          {
+            "tick": 3364,
+            "id": "matched-08-c3-s5",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 193,
+            "bottomColors": [
+              "R",
+              "P",
+              "G",
+              "O",
+              "Y",
+              "B"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2229,
+          "ballsLeft": 1434,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2744,
+          "ballsLeft": 1289,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 3287,
+          "ballsLeft": 1042,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-09.json",
+      "id": "matched-40-09",
+      "name": "第 9 关 · 全局接驳",
+      "ballSeed": 95192,
+      "garageSeed": 1030002,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "color": "G",
+            "capacity": 200,
+            "id": "matched-09-c1-s1",
+            "slot": 0
+          },
+          {
+            "color": "P",
+            "capacity": 190,
+            "id": "matched-09-c1-s2",
+            "slot": 1
+          },
+          {
+            "color": "B",
+            "capacity": 70,
+            "id": "matched-09-c1-s3",
+            "slot": 2
+          },
+          {
+            "color": "Y",
+            "capacity": 70,
+            "id": "matched-09-c1-s4",
+            "slot": 3
+          },
+          {
+            "color": "R",
+            "capacity": 70,
+            "id": "matched-09-c1-s5",
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "color": "O",
+            "capacity": 190,
+            "id": "matched-09-c2-s1",
+            "slot": 0
+          },
+          {
+            "color": "Y",
+            "capacity": 130,
+            "id": "matched-09-c2-s2",
+            "slot": 1
+          },
+          {
+            "color": "Y",
+            "capacity": 70,
+            "id": "matched-09-c2-s3",
+            "slot": 2
+          },
+          {
+            "color": "R",
+            "capacity": 70,
+            "id": "matched-09-c2-s4",
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "color": "B",
+            "capacity": 130,
+            "id": "matched-09-c3-s1",
+            "slot": 0
+          },
+          {
+            "color": "R",
+            "capacity": 130,
+            "id": "matched-09-c3-s2",
+            "slot": 1
+          },
+          {
+            "color": "O",
+            "capacity": 70,
+            "id": "matched-09-c3-s3",
+            "slot": 2
+          },
+          {
+            "color": "P",
+            "capacity": 70,
+            "id": "matched-09-c3-s4",
+            "slot": 3
+          },
+          {
+            "color": "B",
+            "capacity": 70,
+            "id": "matched-09-c3-s5",
+            "slot": 4
+          },
+          {
+            "color": "G",
+            "capacity": 70,
+            "id": "matched-09-c3-s6",
+            "slot": 5
+          }
+        ]
+      ],
+      "initialBottom": [
+        "P",
+        "B",
+        "R",
+        "Y"
+      ],
+      "adjacentSameRatio": 0.3580128205128205,
+      "exposure": {
+        "firstBottomTick": {
+          "P": 0,
+          "B": 0,
+          "R": 0,
+          "Y": 0,
+          "O": 144,
+          "G": 236
+        },
+        "bottomSetChanges": 175
+      },
+      "route": {
+        "status": "won",
+        "ticks": 3293,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-09-c1-s1",
+            "color": "G",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "matched-09-c2-s1",
+            "color": "O",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "matched-09-c3-s1",
+            "color": "B",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "matched-09-c1-s2",
+            "color": "P",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "matched-09-c2-s2",
+            "color": "Y",
+            "column": 2,
+            "capacity": 130,
+            "roadBefore": 4,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 5,
+            "id": "matched-09-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 1597,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1439,
+            "id": "matched-09-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 865,
+            "bottomColors": [
+              "B",
+              "G",
+              "O",
+              "Y",
+              "R",
+              "P"
+            ]
+          },
+          {
+            "tick": 1628,
+            "id": "matched-09-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 788,
+            "bottomColors": [
+              "P",
+              "O",
+              "G",
+              "Y",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 1979,
+            "id": "matched-09-c2-s4",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 612,
+            "bottomColors": [
+              "O",
+              "Y",
+              "G",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2054,
+            "id": "matched-09-c3-s3",
+            "color": "O",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 580,
+            "bottomColors": [
+              "B",
+              "R",
+              "G",
+              "O",
+              "Y",
+              "P"
+            ]
+          },
+          {
+            "tick": 2066,
+            "id": "matched-09-c3-s4",
+            "color": "P",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 572,
+            "bottomColors": [
+              "B",
+              "R",
+              "G",
+              "O",
+              "Y",
+              "P"
+            ]
+          },
+          {
+            "tick": 2227,
+            "id": "matched-09-c1-s4",
+            "color": "Y",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 483,
+            "bottomColors": [
+              "B",
+              "Y",
+              "R",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2498,
+            "id": "matched-09-c3-s5",
+            "color": "B",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 369,
+            "bottomColors": [
+              "P",
+              "R",
+              "G",
+              "B",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 2524,
+            "id": "matched-09-c1-s5",
+            "color": "R",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 347,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "G",
+              "O",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2630,
+            "id": "matched-09-c3-s6",
+            "color": "G",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 298,
+            "bottomColors": [
+              "Y",
+              "G",
+              "B",
+              "R",
+              "P",
+              "O"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3434,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "matched-09-c1-s1",
+            "color": "G",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "matched-09-c2-s1",
+            "color": "O",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "matched-09-c3-s1",
+            "color": "B",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "matched-09-c1-s2",
+            "color": "P",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 3,
+            "ballsLeft": 1596,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "matched-09-c2-s2",
+            "color": "Y",
+            "column": 2,
+            "capacity": 130,
+            "roadBefore": 4,
+            "ballsLeft": 1592,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "matched-09-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 1575,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 1611,
+            "id": "matched-09-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 849,
+            "bottomColors": [
+              "G",
+              "O",
+              "Y",
+              "R",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 1641,
+            "id": "matched-09-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 831,
+            "bottomColors": [
+              "P",
+              "O",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2054,
+            "id": "matched-09-c2-s4",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 635,
+            "bottomColors": [
+              "O",
+              "Y",
+              "B",
+              "G",
+              "R",
+              "P"
+            ]
+          },
+          {
+            "tick": 2098,
+            "id": "matched-09-c3-s3",
+            "color": "O",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 607,
+            "bottomColors": [
+              "B",
+              "Y",
+              "G",
+              "R",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 2206,
+            "id": "matched-09-c3-s4",
+            "color": "P",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 555,
+            "bottomColors": [
+              "B",
+              "Y",
+              "R",
+              "G",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 2481,
+            "id": "matched-09-c1-s4",
+            "color": "Y",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 434,
+            "bottomColors": [
+              "R",
+              "G",
+              "Y",
+              "B"
+            ]
+          },
+          {
+            "tick": 2539,
+            "id": "matched-09-c3-s5",
+            "color": "B",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 393,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "O",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2625,
+            "id": "matched-09-c1-s5",
+            "color": "R",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 351,
+            "bottomColors": [
+              "B",
+              "P",
+              "R",
+              "G",
+              "O",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2711,
+            "id": "matched-09-c3-s6",
+            "color": "G",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 315,
+            "bottomColors": [
+              "B",
+              "Y",
+              "R",
+              "P",
+              "O",
+              "G"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2327,
+          "ballsLeft": 896,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2522,
+          "ballsLeft": 1324,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2759,
+          "ballsLeft": 1384,
+          "peak": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4258 @@
+{
+  "verifiedAt": "2026-10-21T06:39:32.394Z",
+  "engine": "color-transit-demo/src/engine.js and src/gravity.js",
+  "levelCount": 9,
+  "levels": [
+    {
+      "file": "level-01.json",
+      "id": "six-40-01",
+      "name": "第 1 关 · 四色入口",
+      "ballSeed": 601000,
+      "garageSeed": 620001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-1-620001-1",
+            "color": "R",
+            "capacity": 240,
+            "slot": 0
+          },
+          {
+            "id": "six-1-620001-2",
+            "color": "G",
+            "capacity": 270,
+            "slot": 1
+          },
+          {
+            "id": "six-1-620001-3",
+            "color": "R",
+            "capacity": 30,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "six-1-620001-4",
+            "color": "Y",
+            "capacity": 270,
+            "slot": 0
+          },
+          {
+            "id": "six-1-620001-5",
+            "color": "B",
+            "capacity": 240,
+            "slot": 1
+          },
+          {
+            "id": "six-1-620001-6",
+            "color": "B",
+            "capacity": 30,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "six-1-620001-7",
+            "color": "P",
+            "capacity": 260,
+            "slot": 0
+          },
+          {
+            "id": "six-1-620001-8",
+            "color": "O",
+            "capacity": 260,
+            "slot": 1
+          }
+        ]
+      ],
+      "initialBottom": [
+        "Y",
+        "O",
+        "R",
+        "B"
+      ],
+      "adjacentSameRatio": 0.6451923076923077,
+      "route": {
+        "status": "won",
+        "ticks": 3282,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-1-620001-1",
+            "color": "R",
+            "column": 1,
+            "capacity": 240
+          },
+          {
+            "tick": 1,
+            "id": "six-1-620001-4",
+            "color": "Y",
+            "column": 2,
+            "capacity": 270
+          },
+          {
+            "tick": 2,
+            "id": "six-1-620001-7",
+            "color": "P",
+            "column": 3,
+            "capacity": 260
+          },
+          {
+            "tick": 3,
+            "id": "six-1-620001-2",
+            "color": "G",
+            "column": 1,
+            "capacity": 270
+          },
+          {
+            "tick": 4,
+            "id": "six-1-620001-5",
+            "color": "B",
+            "column": 2,
+            "capacity": 240
+          },
+          {
+            "tick": 5,
+            "id": "six-1-620001-8",
+            "color": "O",
+            "column": 3,
+            "capacity": 260
+          },
+          {
+            "tick": 2619,
+            "id": "six-1-620001-6",
+            "color": "B",
+            "column": 2,
+            "capacity": 30
+          },
+          {
+            "tick": 2630,
+            "id": "six-1-620001-3",
+            "color": "R",
+            "column": 1,
+            "capacity": 30
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3499,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-1-620001-1",
+            "color": "R",
+            "column": 1,
+            "capacity": 240,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-1-620001-4",
+            "color": "Y",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 1,
+            "ballsLeft": 1590,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-1-620001-7",
+            "color": "P",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 2,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "Y",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-1-620001-2",
+            "color": "G",
+            "column": 1,
+            "capacity": 270,
+            "roadBefore": 3,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "Y",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-1-620001-5",
+            "color": "B",
+            "column": 2,
+            "capacity": 240,
+            "roadBefore": 4,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "Y",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-1-620001-8",
+            "color": "O",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1529,
+            "bottomColors": [
+              "Y",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2619,
+            "id": "six-1-620001-6",
+            "color": "B",
+            "column": 2,
+            "capacity": 30,
+            "roadBefore": 5,
+            "ballsLeft": 351,
+            "bottomColors": [
+              "G",
+              "B",
+              "O",
+              "R",
+              "P",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2649,
+            "id": "six-1-620001-3",
+            "color": "R",
+            "column": 1,
+            "capacity": 30,
+            "roadBefore": 5,
+            "ballsLeft": 337,
+            "bottomColors": [
+              "G",
+              "R",
+              "O",
+              "P",
+              "B"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2517,
+          "ballsLeft": 1229,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 3278,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3390,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 3282,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 3282,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3282,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-02.json",
+      "id": "six-40-02",
+      "name": "第 2 关 · 橙车解锁",
+      "ballSeed": 601149,
+      "garageSeed": 621001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-2-621001-1",
+            "color": "B",
+            "capacity": 230,
+            "slot": 0
+          },
+          {
+            "id": "six-2-621001-2",
+            "color": "O",
+            "capacity": 260,
+            "slot": 1
+          },
+          {
+            "id": "six-2-621001-3",
+            "color": "B",
+            "capacity": 40,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "six-2-621001-4",
+            "color": "R",
+            "capacity": 230,
+            "slot": 0
+          },
+          {
+            "id": "six-2-621001-5",
+            "color": "G",
+            "capacity": 270,
+            "slot": 1
+          },
+          {
+            "id": "six-2-621001-6",
+            "color": "R",
+            "capacity": 40,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "six-2-621001-7",
+            "color": "P",
+            "capacity": 260,
+            "slot": 0
+          },
+          {
+            "id": "six-2-621001-8",
+            "color": "Y",
+            "capacity": 230,
+            "slot": 1
+          },
+          {
+            "id": "six-2-621001-9",
+            "color": "Y",
+            "capacity": 40,
+            "slot": 2
+          }
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "G",
+        "R",
+        "O"
+      ],
+      "adjacentSameRatio": 0.6567307692307692,
+      "route": {
+        "status": "won",
+        "ticks": 3378,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-2-621001-1",
+            "color": "B",
+            "column": 1,
+            "capacity": 230
+          },
+          {
+            "tick": 1,
+            "id": "six-2-621001-4",
+            "color": "R",
+            "column": 2,
+            "capacity": 230
+          },
+          {
+            "tick": 2,
+            "id": "six-2-621001-7",
+            "color": "P",
+            "column": 3,
+            "capacity": 260
+          },
+          {
+            "tick": 3,
+            "id": "six-2-621001-2",
+            "color": "O",
+            "column": 1,
+            "capacity": 260
+          },
+          {
+            "tick": 4,
+            "id": "six-2-621001-5",
+            "color": "G",
+            "column": 2,
+            "capacity": 270
+          },
+          {
+            "tick": 5,
+            "id": "six-2-621001-8",
+            "color": "Y",
+            "column": 3,
+            "capacity": 230
+          },
+          {
+            "tick": 2193,
+            "id": "six-2-621001-6",
+            "color": "R",
+            "column": 2,
+            "capacity": 40
+          },
+          {
+            "tick": 2837,
+            "id": "six-2-621001-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 40
+          },
+          {
+            "tick": 2933,
+            "id": "six-2-621001-9",
+            "color": "Y",
+            "column": 3,
+            "capacity": 40
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3423,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-2-621001-1",
+            "color": "B",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-2-621001-4",
+            "color": "R",
+            "column": 2,
+            "capacity": 230,
+            "roadBefore": 1,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "B",
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-2-621001-7",
+            "color": "P",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 2,
+            "ballsLeft": 1578,
+            "bottomColors": [
+              "B",
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-2-621001-2",
+            "color": "O",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 3,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "B",
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-2-621001-5",
+            "color": "G",
+            "column": 2,
+            "capacity": 270,
+            "roadBefore": 4,
+            "ballsLeft": 1560,
+            "bottomColors": [
+              "B",
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-2-621001-8",
+            "color": "Y",
+            "column": 3,
+            "capacity": 230,
+            "roadBefore": 5,
+            "ballsLeft": 1527,
+            "bottomColors": [
+              "B",
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 2303,
+            "id": "six-2-621001-6",
+            "color": "R",
+            "column": 2,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 507,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 2841,
+            "id": "six-2-621001-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 243,
+            "bottomColors": [
+              "O",
+              "G",
+              "P",
+              "Y",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2989,
+            "id": "six-2-621001-9",
+            "color": "Y",
+            "column": 3,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 172,
+            "bottomColors": [
+              "Y",
+              "O",
+              "G",
+              "B",
+              "P"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 713,
+          "ballsLeft": 1375,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 692,
+          "ballsLeft": 1465,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 689,
+          "ballsLeft": 1465,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 4039,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 3930,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3486,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-03.json",
+      "id": "six-40-03",
+      "name": "第 3 关 · 紫车深藏",
+      "ballSeed": 601298,
+      "garageSeed": 622001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-3-622001-1",
+            "color": "P",
+            "capacity": 260,
+            "slot": 0
+          },
+          {
+            "id": "six-3-622001-2",
+            "color": "B",
+            "capacity": 220,
+            "slot": 1
+          },
+          {
+            "id": "six-3-622001-3",
+            "color": "B",
+            "capacity": 50,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "six-3-622001-4",
+            "color": "O",
+            "capacity": 260,
+            "slot": 0
+          },
+          {
+            "id": "six-3-622001-5",
+            "color": "Y",
+            "capacity": 220,
+            "slot": 1
+          },
+          {
+            "id": "six-3-622001-6",
+            "color": "Y",
+            "capacity": 50,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "six-3-622001-7",
+            "color": "G",
+            "capacity": 220,
+            "slot": 0
+          },
+          {
+            "id": "six-3-622001-8",
+            "color": "R",
+            "capacity": 220,
+            "slot": 1
+          },
+          {
+            "id": "six-3-622001-9",
+            "color": "R",
+            "capacity": 50,
+            "slot": 2
+          },
+          {
+            "id": "six-3-622001-10",
+            "color": "G",
+            "capacity": 50,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B",
+        "Y",
+        "G"
+      ],
+      "adjacentSameRatio": 0.6346153846153846,
+      "route": {
+        "status": "won",
+        "ticks": 3396,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-3-622001-1",
+            "color": "P",
+            "column": 1,
+            "capacity": 260
+          },
+          {
+            "tick": 1,
+            "id": "six-3-622001-4",
+            "color": "O",
+            "column": 2,
+            "capacity": 260
+          },
+          {
+            "tick": 2,
+            "id": "six-3-622001-7",
+            "color": "G",
+            "column": 3,
+            "capacity": 220
+          },
+          {
+            "tick": 3,
+            "id": "six-3-622001-2",
+            "color": "B",
+            "column": 1,
+            "capacity": 220
+          },
+          {
+            "tick": 4,
+            "id": "six-3-622001-5",
+            "color": "Y",
+            "column": 2,
+            "capacity": 220
+          },
+          {
+            "tick": 5,
+            "id": "six-3-622001-8",
+            "color": "R",
+            "column": 3,
+            "capacity": 220
+          },
+          {
+            "tick": 2384,
+            "id": "six-3-622001-6",
+            "color": "Y",
+            "column": 2,
+            "capacity": 50
+          },
+          {
+            "tick": 2514,
+            "id": "six-3-622001-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 50
+          },
+          {
+            "tick": 2709,
+            "id": "six-3-622001-9",
+            "color": "R",
+            "column": 3,
+            "capacity": 50
+          },
+          {
+            "tick": 2844,
+            "id": "six-3-622001-10",
+            "color": "G",
+            "column": 3,
+            "capacity": 50
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3551,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-3-622001-1",
+            "color": "P",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-3-622001-4",
+            "color": "O",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-3-622001-7",
+            "color": "G",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-3-622001-2",
+            "color": "B",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-3-622001-5",
+            "color": "Y",
+            "column": 2,
+            "capacity": 220,
+            "roadBefore": 4,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-3-622001-8",
+            "color": "R",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 5,
+            "ballsLeft": 1575,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2602,
+            "id": "six-3-622001-6",
+            "color": "Y",
+            "column": 2,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 400,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "P",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 2632,
+            "id": "six-3-622001-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 379,
+            "bottomColors": [
+              "Y",
+              "P",
+              "B",
+              "R",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 2865,
+            "id": "six-3-622001-9",
+            "color": "R",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 263,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "G",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2995,
+            "id": "six-3-622001-10",
+            "color": "G",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 190,
+            "bottomColors": [
+              "P",
+              "Y",
+              "B",
+              "O",
+              "R",
+              "G"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 805,
+          "ballsLeft": 1499,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 704,
+          "ballsLeft": 1480,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 709,
+          "ballsLeft": 1480,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 3414,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 4356,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3592,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-04.json",
+      "id": "six-40-04",
+      "name": "第 4 关 · 错列接力",
+      "ballSeed": 601447,
+      "garageSeed": 623001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-4-623001-1",
+            "color": "B",
+            "capacity": 210,
+            "slot": 0
+          },
+          {
+            "id": "six-4-623001-2",
+            "color": "R",
+            "capacity": 210,
+            "slot": 1
+          },
+          {
+            "id": "six-4-623001-3",
+            "color": "R",
+            "capacity": 60,
+            "slot": 2
+          },
+          {
+            "id": "six-4-623001-4",
+            "color": "B",
+            "capacity": 60,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "six-4-623001-5",
+            "color": "P",
+            "capacity": 260,
+            "slot": 0
+          },
+          {
+            "id": "six-4-623001-6",
+            "color": "G",
+            "capacity": 210,
+            "slot": 1
+          },
+          {
+            "id": "six-4-623001-7",
+            "color": "G",
+            "capacity": 60,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "six-4-623001-8",
+            "color": "O",
+            "capacity": 200,
+            "slot": 0
+          },
+          {
+            "id": "six-4-623001-9",
+            "color": "Y",
+            "capacity": 210,
+            "slot": 1
+          },
+          {
+            "id": "six-4-623001-10",
+            "color": "O",
+            "capacity": 60,
+            "slot": 2
+          },
+          {
+            "id": "six-4-623001-11",
+            "color": "Y",
+            "capacity": 60,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "G",
+        "R",
+        "O"
+      ],
+      "adjacentSameRatio": 0.639102564102564,
+      "route": {
+        "status": "won",
+        "ticks": 3379,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-4-623001-1",
+            "color": "B",
+            "column": 1,
+            "capacity": 210
+          },
+          {
+            "tick": 1,
+            "id": "six-4-623001-5",
+            "color": "P",
+            "column": 2,
+            "capacity": 260
+          },
+          {
+            "tick": 2,
+            "id": "six-4-623001-8",
+            "color": "O",
+            "column": 3,
+            "capacity": 200
+          },
+          {
+            "tick": 3,
+            "id": "six-4-623001-2",
+            "color": "R",
+            "column": 1,
+            "capacity": 210
+          },
+          {
+            "tick": 4,
+            "id": "six-4-623001-6",
+            "color": "G",
+            "column": 2,
+            "capacity": 210
+          },
+          {
+            "tick": 5,
+            "id": "six-4-623001-9",
+            "color": "Y",
+            "column": 3,
+            "capacity": 210
+          },
+          {
+            "tick": 2187,
+            "id": "six-4-623001-3",
+            "color": "R",
+            "column": 1,
+            "capacity": 60
+          },
+          {
+            "tick": 2278,
+            "id": "six-4-623001-10",
+            "color": "O",
+            "column": 3,
+            "capacity": 60
+          },
+          {
+            "tick": 2514,
+            "id": "six-4-623001-7",
+            "color": "G",
+            "column": 2,
+            "capacity": 60
+          },
+          {
+            "tick": 2625,
+            "id": "six-4-623001-4",
+            "color": "B",
+            "column": 1,
+            "capacity": 60
+          },
+          {
+            "tick": 2852,
+            "id": "six-4-623001-11",
+            "color": "Y",
+            "column": 3,
+            "capacity": 60
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3441,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-4-623001-1",
+            "color": "B",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-4-623001-5",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-4-623001-8",
+            "color": "O",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-4-623001-2",
+            "color": "R",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1590,
+            "bottomColors": [
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-4-623001-6",
+            "color": "G",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-4-623001-9",
+            "color": "Y",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 2357,
+            "id": "six-4-623001-3",
+            "color": "R",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 498,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "P",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2387,
+            "id": "six-4-623001-10",
+            "color": "O",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 473,
+            "bottomColors": [
+              "R",
+              "O",
+              "Y",
+              "P",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2635,
+            "id": "six-4-623001-7",
+            "color": "G",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 340,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "P",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 2733,
+            "id": "six-4-623001-4",
+            "color": "B",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 298,
+            "bottomColors": [
+              "Y",
+              "R",
+              "O",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 2971,
+            "id": "six-4-623001-11",
+            "color": "Y",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 162,
+            "bottomColors": [
+              "P",
+              "G",
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 804,
+          "ballsLeft": 1341,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 368,
+          "ballsLeft": 1507,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 277,
+          "ballsLeft": 1507,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 3380,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 3842,
+          "ballsLeft": 112,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 4035,
+          "ballsLeft": 112,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-05.json",
+      "id": "six-40-05",
+      "name": "第 5 关 · 双色伏笔",
+      "ballSeed": 601596,
+      "garageSeed": 624005,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-5-624005-1",
+            "color": "O",
+            "capacity": 190,
+            "slot": 0
+          },
+          {
+            "id": "six-5-624005-2",
+            "color": "P",
+            "capacity": 190,
+            "slot": 1
+          },
+          {
+            "id": "six-5-624005-3",
+            "color": "P",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-5-624005-4",
+            "color": "O",
+            "capacity": 70,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "six-5-624005-5",
+            "color": "R",
+            "capacity": 200,
+            "slot": 0
+          },
+          {
+            "id": "six-5-624005-6",
+            "color": "Y",
+            "capacity": 200,
+            "slot": 1
+          },
+          {
+            "id": "six-5-624005-7",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-5-624005-8",
+            "color": "R",
+            "capacity": 70,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "six-5-624005-9",
+            "color": "G",
+            "capacity": 200,
+            "slot": 0
+          },
+          {
+            "id": "six-5-624005-10",
+            "color": "B",
+            "capacity": 200,
+            "slot": 1
+          },
+          {
+            "id": "six-5-624005-11",
+            "color": "G",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-5-624005-12",
+            "color": "B",
+            "capacity": 70,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "Y",
+        "B",
+        "O",
+        "R"
+      ],
+      "adjacentSameRatio": 0.6368589743589743,
+      "route": {
+        "status": "won",
+        "ticks": 3733,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-5-624005-1",
+            "color": "O",
+            "column": 1,
+            "capacity": 190
+          },
+          {
+            "tick": 1,
+            "id": "six-5-624005-5",
+            "color": "R",
+            "column": 2,
+            "capacity": 200
+          },
+          {
+            "tick": 2,
+            "id": "six-5-624005-9",
+            "color": "G",
+            "column": 3,
+            "capacity": 200
+          },
+          {
+            "tick": 3,
+            "id": "six-5-624005-2",
+            "color": "P",
+            "column": 1,
+            "capacity": 190
+          },
+          {
+            "tick": 4,
+            "id": "six-5-624005-6",
+            "color": "Y",
+            "column": 2,
+            "capacity": 200
+          },
+          {
+            "tick": 5,
+            "id": "six-5-624005-10",
+            "color": "B",
+            "column": 3,
+            "capacity": 200
+          },
+          {
+            "tick": 2173,
+            "id": "six-5-624005-3",
+            "color": "P",
+            "column": 1,
+            "capacity": 70
+          },
+          {
+            "tick": 2398,
+            "id": "six-5-624005-4",
+            "color": "O",
+            "column": 1,
+            "capacity": 70
+          },
+          {
+            "tick": 2707,
+            "id": "six-5-624005-7",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70
+          },
+          {
+            "tick": 2729,
+            "id": "six-5-624005-11",
+            "color": "G",
+            "column": 3,
+            "capacity": 70
+          },
+          {
+            "tick": 2731,
+            "id": "six-5-624005-8",
+            "color": "R",
+            "column": 2,
+            "capacity": 70
+          },
+          {
+            "tick": 2813,
+            "id": "six-5-624005-12",
+            "color": "B",
+            "column": 3,
+            "capacity": 70
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3983,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-5-624005-1",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "Y",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-5-624005-5",
+            "color": "R",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 1,
+            "ballsLeft": 1590,
+            "bottomColors": [
+              "Y",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-5-624005-9",
+            "color": "G",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 2,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "Y",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-5-624005-2",
+            "color": "P",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 3,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "Y",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-5-624005-6",
+            "color": "Y",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1584,
+            "bottomColors": [
+              "Y",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-5-624005-10",
+            "color": "B",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1571,
+            "bottomColors": [
+              "Y",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2184,
+            "id": "six-5-624005-3",
+            "color": "P",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 567,
+            "bottomColors": [
+              "P",
+              "G",
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2436,
+            "id": "six-5-624005-4",
+            "color": "O",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 491,
+            "bottomColors": [
+              "P",
+              "O",
+              "Y",
+              "G",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2784,
+            "id": "six-5-624005-7",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 380,
+            "bottomColors": [
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2851,
+            "id": "six-5-624005-11",
+            "color": "G",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 374,
+            "bottomColors": [
+              "Y",
+              "B",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 3126,
+            "id": "six-5-624005-8",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 313,
+            "bottomColors": [
+              "B",
+              "P",
+              "Y",
+              "R"
+            ]
+          },
+          {
+            "tick": 3156,
+            "id": "six-5-624005-12",
+            "color": "B",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 306,
+            "bottomColors": [
+              "B",
+              "P",
+              "G",
+              "R",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 902,
+          "ballsLeft": 1445,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1369,
+          "ballsLeft": 1362,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1352,
+          "ballsLeft": 1362,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "ticks": 3731,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2953,
+          "ballsLeft": 438,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2640,
+          "ballsLeft": 444,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-06.json",
+      "id": "six-40-06",
+      "name": "第 6 关 · 跨段周转",
+      "ballSeed": 601745,
+      "garageSeed": 625001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-6-625001-1",
+            "color": "G",
+            "capacity": 210,
+            "slot": 0
+          },
+          {
+            "id": "six-6-625001-2",
+            "color": "B",
+            "capacity": 210,
+            "slot": 1
+          },
+          {
+            "id": "six-6-625001-3",
+            "color": "G",
+            "capacity": 60,
+            "slot": 2
+          },
+          {
+            "id": "six-6-625001-4",
+            "color": "B",
+            "capacity": 60,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "six-6-625001-5",
+            "color": "R",
+            "capacity": 150,
+            "slot": 0
+          },
+          {
+            "id": "six-6-625001-6",
+            "color": "Y",
+            "capacity": 210,
+            "slot": 1
+          },
+          {
+            "id": "six-6-625001-7",
+            "color": "R",
+            "capacity": 60,
+            "slot": 2
+          },
+          {
+            "id": "six-6-625001-8",
+            "color": "R",
+            "capacity": 60,
+            "slot": 3
+          },
+          {
+            "id": "six-6-625001-9",
+            "color": "Y",
+            "capacity": 60,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "six-6-625001-10",
+            "color": "P",
+            "capacity": 200,
+            "slot": 0
+          },
+          {
+            "id": "six-6-625001-11",
+            "color": "O",
+            "capacity": 200,
+            "slot": 1
+          },
+          {
+            "id": "six-6-625001-12",
+            "color": "O",
+            "capacity": 60,
+            "slot": 2
+          },
+          {
+            "id": "six-6-625001-13",
+            "color": "P",
+            "capacity": 60,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "P",
+        "B",
+        "Y",
+        "G",
+        "R"
+      ],
+      "adjacentSameRatio": 0.6442307692307693,
+      "route": {
+        "status": "won",
+        "ticks": 3316,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-6-625001-1",
+            "color": "G",
+            "column": 1,
+            "capacity": 210
+          },
+          {
+            "tick": 1,
+            "id": "six-6-625001-5",
+            "color": "R",
+            "column": 2,
+            "capacity": 150
+          },
+          {
+            "tick": 2,
+            "id": "six-6-625001-10",
+            "color": "P",
+            "column": 3,
+            "capacity": 200
+          },
+          {
+            "tick": 3,
+            "id": "six-6-625001-2",
+            "color": "B",
+            "column": 1,
+            "capacity": 210
+          },
+          {
+            "tick": 4,
+            "id": "six-6-625001-6",
+            "color": "Y",
+            "column": 2,
+            "capacity": 210
+          },
+          {
+            "tick": 5,
+            "id": "six-6-625001-11",
+            "color": "O",
+            "column": 3,
+            "capacity": 200
+          },
+          {
+            "tick": 1853,
+            "id": "six-6-625001-7",
+            "color": "R",
+            "column": 2,
+            "capacity": 60
+          },
+          {
+            "tick": 2184,
+            "id": "six-6-625001-12",
+            "color": "O",
+            "column": 3,
+            "capacity": 60
+          },
+          {
+            "tick": 2291,
+            "id": "six-6-625001-3",
+            "color": "G",
+            "column": 1,
+            "capacity": 60
+          },
+          {
+            "tick": 2292,
+            "id": "six-6-625001-4",
+            "color": "B",
+            "column": 1,
+            "capacity": 60
+          },
+          {
+            "tick": 2396,
+            "id": "six-6-625001-8",
+            "color": "R",
+            "column": 2,
+            "capacity": 60
+          },
+          {
+            "tick": 2738,
+            "id": "six-6-625001-13",
+            "color": "P",
+            "column": 3,
+            "capacity": 60
+          },
+          {
+            "tick": 2837,
+            "id": "six-6-625001-9",
+            "color": "Y",
+            "column": 2,
+            "capacity": 60
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3396,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-6-625001-1",
+            "color": "G",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-6-625001-5",
+            "color": "R",
+            "column": 2,
+            "capacity": 150,
+            "roadBefore": 1,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-6-625001-10",
+            "color": "P",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 2,
+            "ballsLeft": 1595,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-6-625001-2",
+            "color": "B",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1570,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-6-625001-6",
+            "color": "Y",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1562,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-6-625001-11",
+            "color": "O",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1548,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 1980,
+            "id": "six-6-625001-7",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 673,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "G",
+              "B",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2231,
+            "id": "six-6-625001-12",
+            "color": "O",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 527,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 2291,
+            "id": "six-6-625001-3",
+            "color": "G",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 497,
+            "bottomColors": [
+              "R",
+              "P",
+              "G",
+              "O",
+              "Y",
+              "B"
+            ]
+          },
+          {
+            "tick": 2399,
+            "id": "six-6-625001-4",
+            "color": "B",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 438,
+            "bottomColors": [
+              "G",
+              "R",
+              "P",
+              "Y",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2450,
+            "id": "six-6-625001-8",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 401,
+            "bottomColors": [
+              "R",
+              "Y",
+              "O",
+              "G",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2761,
+            "id": "six-6-625001-13",
+            "color": "P",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 236,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "O",
+              "R",
+              "G"
+            ]
+          },
+          {
+            "tick": 2937,
+            "id": "six-6-625001-9",
+            "color": "Y",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 159,
+            "bottomColors": [
+              "P",
+              "B",
+              "R",
+              "Y",
+              "G",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 506,
+          "ballsLeft": 1491,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 809,
+          "ballsLeft": 1424,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 922,
+          "ballsLeft": 1458,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 6096,
+          "ballsLeft": 481,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 4176,
+          "ballsLeft": 321,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 4302,
+          "ballsLeft": 194,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-07.json",
+      "id": "six-40-07",
+      "name": "第 7 关 · 三链并进",
+      "ballSeed": 601894,
+      "garageSeed": 626003,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-7-626003-1",
+            "color": "G",
+            "capacity": 200,
+            "slot": 0
+          },
+          {
+            "id": "six-7-626003-2",
+            "color": "B",
+            "capacity": 130,
+            "slot": 1
+          },
+          {
+            "id": "six-7-626003-3",
+            "color": "B",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-7-626003-4",
+            "color": "G",
+            "capacity": 70,
+            "slot": 3
+          },
+          {
+            "id": "six-7-626003-5",
+            "color": "B",
+            "capacity": 70,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "six-7-626003-6",
+            "color": "O",
+            "capacity": 190,
+            "slot": 0
+          },
+          {
+            "id": "six-7-626003-7",
+            "color": "Y",
+            "capacity": 200,
+            "slot": 1
+          },
+          {
+            "id": "six-7-626003-8",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-7-626003-9",
+            "color": "O",
+            "capacity": 70,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "six-7-626003-10",
+            "color": "R",
+            "capacity": 130,
+            "slot": 0
+          },
+          {
+            "id": "six-7-626003-11",
+            "color": "P",
+            "capacity": 190,
+            "slot": 1
+          },
+          {
+            "id": "six-7-626003-12",
+            "color": "R",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-7-626003-13",
+            "color": "P",
+            "capacity": 70,
+            "slot": 3
+          },
+          {
+            "id": "six-7-626003-14",
+            "color": "R",
+            "capacity": 70,
+            "slot": 4
+          }
+        ]
+      ],
+      "initialBottom": [
+        "G",
+        "R",
+        "B",
+        "O"
+      ],
+      "adjacentSameRatio": 0.6682692307692307,
+      "route": {
+        "status": "won",
+        "ticks": 3398,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-7-626003-1",
+            "color": "G",
+            "column": 1,
+            "capacity": 200
+          },
+          {
+            "tick": 1,
+            "id": "six-7-626003-6",
+            "color": "O",
+            "column": 2,
+            "capacity": 190
+          },
+          {
+            "tick": 2,
+            "id": "six-7-626003-10",
+            "color": "R",
+            "column": 3,
+            "capacity": 130
+          },
+          {
+            "tick": 3,
+            "id": "six-7-626003-2",
+            "color": "B",
+            "column": 1,
+            "capacity": 130
+          },
+          {
+            "tick": 4,
+            "id": "six-7-626003-7",
+            "color": "Y",
+            "column": 2,
+            "capacity": 200
+          },
+          {
+            "tick": 5,
+            "id": "six-7-626003-11",
+            "color": "P",
+            "column": 3,
+            "capacity": 190
+          },
+          {
+            "tick": 1006,
+            "id": "six-7-626003-12",
+            "color": "R",
+            "column": 3,
+            "capacity": 70
+          },
+          {
+            "tick": 1854,
+            "id": "six-7-626003-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 70
+          },
+          {
+            "tick": 2013,
+            "id": "six-7-626003-4",
+            "color": "G",
+            "column": 1,
+            "capacity": 70
+          },
+          {
+            "tick": 2067,
+            "id": "six-7-626003-8",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70
+          },
+          {
+            "tick": 2385,
+            "id": "six-7-626003-13",
+            "color": "P",
+            "column": 3,
+            "capacity": 70
+          },
+          {
+            "tick": 2393,
+            "id": "six-7-626003-14",
+            "color": "R",
+            "column": 3,
+            "capacity": 70
+          },
+          {
+            "tick": 2712,
+            "id": "six-7-626003-9",
+            "color": "O",
+            "column": 2,
+            "capacity": 70
+          },
+          {
+            "tick": 2753,
+            "id": "six-7-626003-5",
+            "color": "B",
+            "column": 1,
+            "capacity": 70
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3559,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-7-626003-1",
+            "color": "G",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-7-626003-6",
+            "color": "O",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 1,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-7-626003-10",
+            "color": "R",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 2,
+            "ballsLeft": 1575,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-7-626003-2",
+            "color": "B",
+            "column": 1,
+            "capacity": 130,
+            "roadBefore": 3,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "G",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-7-626003-7",
+            "color": "Y",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1553,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-7-626003-11",
+            "color": "P",
+            "column": 3,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1532,
+            "bottomColors": [
+              "R",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 1044,
+            "id": "six-7-626003-12",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 1093,
+            "bottomColors": [
+              "P",
+              "G",
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1942,
+            "id": "six-7-626003-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 656,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 2064,
+            "id": "six-7-626003-4",
+            "color": "G",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 595,
+            "bottomColors": [
+              "R",
+              "B",
+              "P",
+              "G",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2130,
+            "id": "six-7-626003-8",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 554,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2421,
+            "id": "six-7-626003-13",
+            "color": "P",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 450,
+            "bottomColors": [
+              "R",
+              "P",
+              "B",
+              "G",
+              "O",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2635,
+            "id": "six-7-626003-14",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 398,
+            "bottomColors": [
+              "R",
+              "B",
+              "P",
+              "Y",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 2839,
+            "id": "six-7-626003-9",
+            "color": "O",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 302,
+            "bottomColors": [
+              "P",
+              "O",
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2869,
+            "id": "six-7-626003-5",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 274,
+            "bottomColors": [
+              "O",
+              "Y",
+              "R",
+              "B",
+              "P",
+              "G"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 179,
+          "ballsLeft": 1507,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 598,
+          "ballsLeft": 1539,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 921,
+          "ballsLeft": 1530,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 4917,
+          "ballsLeft": 660,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 5682,
+          "ballsLeft": 104,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2757,
+          "ballsLeft": 759,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-08.json",
+      "id": "six-40-08",
+      "name": "第 8 关 · 逆向释位",
+      "ballSeed": 602043,
+      "garageSeed": 627008,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-8-627008-1",
+            "color": "B",
+            "capacity": 130,
+            "slot": 0
+          },
+          {
+            "id": "six-8-627008-2",
+            "color": "O",
+            "capacity": 190,
+            "slot": 1
+          },
+          {
+            "id": "six-8-627008-3",
+            "color": "B",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-8-627008-4",
+            "color": "O",
+            "capacity": 70,
+            "slot": 3
+          },
+          {
+            "id": "six-8-627008-5",
+            "color": "B",
+            "capacity": 70,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "six-8-627008-6",
+            "color": "R",
+            "capacity": 130,
+            "slot": 0
+          },
+          {
+            "id": "six-8-627008-7",
+            "color": "G",
+            "capacity": 200,
+            "slot": 1
+          },
+          {
+            "id": "six-8-627008-8",
+            "color": "R",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-8-627008-9",
+            "color": "R",
+            "capacity": 70,
+            "slot": 3
+          },
+          {
+            "id": "six-8-627008-10",
+            "color": "G",
+            "capacity": 70,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "six-8-627008-11",
+            "color": "Y",
+            "capacity": 130,
+            "slot": 0
+          },
+          {
+            "id": "six-8-627008-12",
+            "color": "P",
+            "capacity": 190,
+            "slot": 1
+          },
+          {
+            "id": "six-8-627008-13",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "six-8-627008-14",
+            "color": "P",
+            "capacity": 70,
+            "slot": 3
+          },
+          {
+            "id": "six-8-627008-15",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 4
+          }
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "R"
+      ],
+      "adjacentSameRatio": 0.6487179487179487,
+      "route": {
+        "status": "won",
+        "ticks": 3305,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-8-627008-1",
+            "color": "B",
+            "column": 1,
+            "capacity": 130
+          },
+          {
+            "tick": 1,
+            "id": "six-8-627008-6",
+            "color": "R",
+            "column": 2,
+            "capacity": 130
+          },
+          {
+            "tick": 2,
+            "id": "six-8-627008-11",
+            "color": "Y",
+            "column": 3,
+            "capacity": 130
+          },
+          {
+            "tick": 3,
+            "id": "six-8-627008-2",
+            "color": "O",
+            "column": 1,
+            "capacity": 190
+          },
+          {
+            "tick": 4,
+            "id": "six-8-627008-7",
+            "color": "G",
+            "column": 2,
+            "capacity": 200
+          },
+          {
+            "tick": 5,
+            "id": "six-8-627008-12",
+            "color": "P",
+            "column": 3,
+            "capacity": 190
+          },
+          {
+            "tick": 886,
+            "id": "six-8-627008-8",
+            "color": "R",
+            "column": 2,
+            "capacity": 70
+          },
+          {
+            "tick": 1307,
+            "id": "six-8-627008-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 70
+          },
+          {
+            "tick": 1763,
+            "id": "six-8-627008-4",
+            "color": "O",
+            "column": 1,
+            "capacity": 70
+          },
+          {
+            "tick": 2089,
+            "id": "six-8-627008-5",
+            "color": "B",
+            "column": 1,
+            "capacity": 70
+          },
+          {
+            "tick": 2182,
+            "id": "six-8-627008-13",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70
+          },
+          {
+            "tick": 2323,
+            "id": "six-8-627008-9",
+            "color": "R",
+            "column": 2,
+            "capacity": 70
+          },
+          {
+            "tick": 2405,
+            "id": "six-8-627008-14",
+            "color": "P",
+            "column": 3,
+            "capacity": 70
+          },
+          {
+            "tick": 2512,
+            "id": "six-8-627008-10",
+            "color": "G",
+            "column": 2,
+            "capacity": 70
+          },
+          {
+            "tick": 2833,
+            "id": "six-8-627008-15",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3340,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-8-627008-1",
+            "color": "B",
+            "column": 1,
+            "capacity": 130,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-8-627008-6",
+            "color": "R",
+            "column": 2,
+            "capacity": 130,
+            "roadBefore": 1,
+            "ballsLeft": 1580,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-8-627008-11",
+            "color": "Y",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 2,
+            "ballsLeft": 1564,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-8-627008-2",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 3,
+            "ballsLeft": 1558,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-8-627008-7",
+            "color": "G",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1547,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-8-627008-12",
+            "color": "P",
+            "column": 3,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1524,
+            "bottomColors": [
+              "R",
+              "B",
+              "P",
+              "Y"
+            ]
+          },
+          {
+            "tick": 906,
+            "id": "six-8-627008-8",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 1142,
+            "bottomColors": [
+              "B",
+              "O",
+              "Y",
+              "R",
+              "G",
+              "P"
+            ]
+          },
+          {
+            "tick": 1307,
+            "id": "six-8-627008-3",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 953,
+            "bottomColors": [
+              "P",
+              "Y",
+              "G",
+              "B",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 1763,
+            "id": "six-8-627008-4",
+            "color": "O",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 716,
+            "bottomColors": [
+              "O",
+              "G",
+              "P",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2129,
+            "id": "six-8-627008-5",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 513,
+            "bottomColors": [
+              "Y",
+              "P",
+              "B",
+              "G",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 2218,
+            "id": "six-8-627008-13",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 475,
+            "bottomColors": [
+              "Y",
+              "O",
+              "P",
+              "B",
+              "R",
+              "G"
+            ]
+          },
+          {
+            "tick": 2323,
+            "id": "six-8-627008-9",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 438,
+            "bottomColors": [
+              "Y",
+              "O",
+              "P",
+              "G",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2441,
+            "id": "six-8-627008-14",
+            "color": "P",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 379,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "G",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2517,
+            "id": "six-8-627008-10",
+            "color": "G",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 337,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B",
+              "G",
+              "P"
+            ]
+          },
+          {
+            "tick": 2833,
+            "id": "six-8-627008-15",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 187,
+            "bottomColors": [
+              "Y",
+              "O",
+              "G",
+              "P",
+              "R",
+              "B"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 595,
+          "ballsLeft": 1435,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 476,
+          "ballsLeft": 1522,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 484,
+          "ballsLeft": 1514,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2880,
+          "ballsLeft": 680,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2522,
+          "ballsLeft": 836,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 3074,
+          "ballsLeft": 718,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-09.json",
+      "id": "six-40-09",
+      "name": "第 9 关 · 六色总调度",
+      "ballSeed": 602192,
+      "garageSeed": 628001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "six-9-628001-1",
+            "color": "Y",
+            "capacity": 110,
+            "slot": 0
+          },
+          {
+            "id": "six-9-628001-2",
+            "color": "P",
+            "capacity": 180,
+            "slot": 1
+          },
+          {
+            "id": "six-9-628001-3",
+            "color": "Y",
+            "capacity": 80,
+            "slot": 2
+          },
+          {
+            "id": "six-9-628001-4",
+            "color": "P",
+            "capacity": 80,
+            "slot": 3
+          },
+          {
+            "id": "six-9-628001-5",
+            "color": "Y",
+            "capacity": 80,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "six-9-628001-6",
+            "color": "O",
+            "capacity": 180,
+            "slot": 0
+          },
+          {
+            "id": "six-9-628001-7",
+            "color": "G",
+            "capacity": 110,
+            "slot": 1
+          },
+          {
+            "id": "six-9-628001-8",
+            "color": "G",
+            "capacity": 80,
+            "slot": 2
+          },
+          {
+            "id": "six-9-628001-9",
+            "color": "O",
+            "capacity": 80,
+            "slot": 3
+          },
+          {
+            "id": "six-9-628001-10",
+            "color": "G",
+            "capacity": 80,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "six-9-628001-11",
+            "color": "B",
+            "capacity": 110,
+            "slot": 0
+          },
+          {
+            "id": "six-9-628001-12",
+            "color": "R",
+            "capacity": 110,
+            "slot": 1
+          },
+          {
+            "id": "six-9-628001-13",
+            "color": "B",
+            "capacity": 80,
+            "slot": 2
+          },
+          {
+            "id": "six-9-628001-14",
+            "color": "B",
+            "capacity": 80,
+            "slot": 3
+          },
+          {
+            "id": "six-9-628001-15",
+            "color": "R",
+            "capacity": 80,
+            "slot": 4
+          },
+          {
+            "id": "six-9-628001-16",
+            "color": "R",
+            "capacity": 80,
+            "slot": 5
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "Y",
+        "B",
+        "P"
+      ],
+      "adjacentSameRatio": 0.6407051282051283,
+      "route": {
+        "status": "won",
+        "ticks": 3607,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-9-628001-1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 110
+          },
+          {
+            "tick": 1,
+            "id": "six-9-628001-6",
+            "color": "O",
+            "column": 2,
+            "capacity": 180
+          },
+          {
+            "tick": 2,
+            "id": "six-9-628001-11",
+            "color": "B",
+            "column": 3,
+            "capacity": 110
+          },
+          {
+            "tick": 3,
+            "id": "six-9-628001-2",
+            "color": "P",
+            "column": 1,
+            "capacity": 180
+          },
+          {
+            "tick": 4,
+            "id": "six-9-628001-7",
+            "color": "G",
+            "column": 2,
+            "capacity": 110
+          },
+          {
+            "tick": 5,
+            "id": "six-9-628001-12",
+            "color": "R",
+            "column": 3,
+            "capacity": 110
+          },
+          {
+            "tick": 1318,
+            "id": "six-9-628001-3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 80
+          },
+          {
+            "tick": 1421,
+            "id": "six-9-628001-8",
+            "color": "G",
+            "column": 2,
+            "capacity": 80
+          },
+          {
+            "tick": 1423,
+            "id": "six-9-628001-13",
+            "color": "B",
+            "column": 3,
+            "capacity": 80
+          },
+          {
+            "tick": 1633,
+            "id": "six-9-628001-4",
+            "color": "P",
+            "column": 1,
+            "capacity": 80
+          },
+          {
+            "tick": 1964,
+            "id": "six-9-628001-9",
+            "color": "O",
+            "column": 2,
+            "capacity": 80
+          },
+          {
+            "tick": 2190,
+            "id": "six-9-628001-14",
+            "color": "B",
+            "column": 3,
+            "capacity": 80
+          },
+          {
+            "tick": 2195,
+            "id": "six-9-628001-15",
+            "color": "R",
+            "column": 3,
+            "capacity": 80
+          },
+          {
+            "tick": 2295,
+            "id": "six-9-628001-5",
+            "color": "Y",
+            "column": 1,
+            "capacity": 80
+          },
+          {
+            "tick": 2524,
+            "id": "six-9-628001-10",
+            "color": "G",
+            "column": 2,
+            "capacity": 80
+          },
+          {
+            "tick": 2643,
+            "id": "six-9-628001-16",
+            "color": "R",
+            "column": 3,
+            "capacity": 80
+          }
+        ]
+      },
+      "human": {
+        "gap": 30,
+        "status": "won",
+        "ticks": 3698,
+        "peak": 6,
+        "pickups": 1600,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "six-9-628001-1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 110,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "six-9-628001-6",
+            "color": "O",
+            "column": 2,
+            "capacity": 180,
+            "roadBefore": 1,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "six-9-628001-11",
+            "color": "B",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 2,
+            "ballsLeft": 1580,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "six-9-628001-2",
+            "color": "P",
+            "column": 1,
+            "capacity": 180,
+            "roadBefore": 3,
+            "ballsLeft": 1574,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "six-9-628001-7",
+            "color": "G",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 4,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "Y",
+              "P"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "six-9-628001-12",
+            "color": "R",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 1541,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "Y",
+              "G",
+              "P"
+            ]
+          },
+          {
+            "tick": 1325,
+            "id": "six-9-628001-3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 961,
+            "bottomColors": [
+              "Y",
+              "P",
+              "B",
+              "R",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 1421,
+            "id": "six-9-628001-8",
+            "color": "G",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 922,
+            "bottomColors": [
+              "Y",
+              "R",
+              "B",
+              "G",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 1662,
+            "id": "six-9-628001-13",
+            "color": "B",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 836,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "Y",
+              "P"
+            ]
+          },
+          {
+            "tick": 1885,
+            "id": "six-9-628001-4",
+            "color": "P",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 716,
+            "bottomColors": [
+              "O",
+              "P",
+              "R",
+              "B",
+              "G",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2070,
+            "id": "six-9-628001-9",
+            "color": "O",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 629,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 2190,
+            "id": "six-9-628001-14",
+            "color": "B",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 592,
+            "bottomColors": [
+              "R",
+              "Y",
+              "G",
+              "B",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2220,
+            "id": "six-9-628001-15",
+            "color": "R",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 573,
+            "bottomColors": [
+              "R",
+              "Y",
+              "G",
+              "O",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2641,
+            "id": "six-9-628001-5",
+            "color": "Y",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 415,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2745,
+            "id": "six-9-628001-10",
+            "color": "G",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 369,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 2775,
+            "id": "six-9-628001-16",
+            "color": "R",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 343,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "G",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 291,
+          "ballsLeft": 1527,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 53,
+          "ballsLeft": 1573,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 158,
+          "ballsLeft": 1591,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2205,
+          "ballsLeft": 771,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2357,
+          "ballsLeft": 775,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2569,
+          "ballsLeft": 699,
+          "peak": 6
+        }
+      ]
+    }
+  ]
+}

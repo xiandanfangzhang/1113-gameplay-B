@@ -1,0 +1,5505 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-21",
+  "levels": [
+    {
+      "file": "level-01.json",
+      "id": "six-hard-40-01",
+      "name": "第 1 关 · 错色开局",
+      "sourceLevel": 2,
+      "gateCount": 2,
+      "seed": 1000003,
+      "mode": 0,
+      "transformSeed": 93001,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-01-c1-s1",
+            "color": "R",
+            "capacity": 230,
+            "slot": 0
+          },
+          {
+            "id": "hard-01-c1-s2",
+            "color": "B",
+            "capacity": 230,
+            "slot": 1
+          }
+        ],
+        [
+          {
+            "id": "hard-01-c2-s1",
+            "color": "B",
+            "capacity": 40,
+            "slot": 0
+          },
+          {
+            "id": "hard-01-c2-s2",
+            "color": "O",
+            "capacity": 260,
+            "slot": 1
+          },
+          {
+            "id": "hard-01-c2-s3",
+            "color": "Y",
+            "capacity": 230,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "hard-01-c3-s1",
+            "color": "G",
+            "capacity": 270,
+            "slot": 0
+          },
+          {
+            "id": "hard-01-c3-s2",
+            "color": "R",
+            "capacity": 40,
+            "slot": 1
+          },
+          {
+            "id": "hard-01-c3-s3",
+            "color": "P",
+            "capacity": 260,
+            "slot": 2
+          },
+          {
+            "id": "hard-01-c3-s4",
+            "color": "Y",
+            "capacity": 40,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B",
+        "O",
+        "G"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3311,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-01-c2-s1",
+            "color": "B",
+            "column": 2,
+            "capacity": 40,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-01-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-01-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 40,
+            "roadBefore": 2,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-01-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 3,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 118,
+            "id": "hard-01-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 230,
+            "roadBefore": 4,
+            "ballsLeft": 1544,
+            "bottomColors": [
+              "G",
+              "R",
+              "Y",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 229,
+            "id": "hard-01-c3-s3",
+            "color": "P",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1488,
+            "bottomColors": [
+              "G",
+              "Y",
+              "R",
+              "O",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 357,
+            "id": "hard-01-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 4,
+            "ballsLeft": 1419,
+            "bottomColors": [
+              "Y",
+              "B",
+              "G",
+              "P",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 358,
+            "id": "hard-01-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 5,
+            "ballsLeft": 1418,
+            "bottomColors": [
+              "Y",
+              "B",
+              "G",
+              "P",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 2949,
+            "id": "hard-01-c3-s4",
+            "color": "Y",
+            "column": 3,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 138,
+            "bottomColors": [
+              "B",
+              "O",
+              "G",
+              "P",
+              "R",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3466,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-01-c2-s1",
+            "color": "B",
+            "column": 2,
+            "capacity": 40,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-01-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 270,
+            "roadBefore": 1,
+            "ballsLeft": 1590,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-01-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 40,
+            "roadBefore": 2,
+            "ballsLeft": 1580,
+            "bottomColors": [
+              "R",
+              "B",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-01-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 3,
+            "ballsLeft": 1566,
+            "bottomColors": [
+              "R",
+              "B",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-01-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 230,
+            "roadBefore": 4,
+            "ballsLeft": 1553,
+            "bottomColors": [
+              "R",
+              "G",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 229,
+            "id": "hard-01-c3-s3",
+            "color": "P",
+            "column": 3,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1504,
+            "bottomColors": [
+              "G",
+              "R",
+              "Y",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 357,
+            "id": "hard-01-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 5,
+            "ballsLeft": 1453,
+            "bottomColors": [
+              "Y",
+              "G",
+              "R",
+              "B",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 615,
+            "id": "hard-01-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 230,
+            "roadBefore": 5,
+            "ballsLeft": 1368,
+            "bottomColors": [
+              "O",
+              "B",
+              "Y",
+              "R"
+            ]
+          },
+          {
+            "tick": 3147,
+            "id": "hard-01-c3-s4",
+            "color": "Y",
+            "column": 3,
+            "capacity": 40,
+            "roadBefore": 5,
+            "ballsLeft": 121,
+            "bottomColors": [
+              "B",
+              "O",
+              "Y",
+              "P",
+              "G"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2228,
+          "ballsLeft": 1186,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 4161,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "ticks": 3915,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 707,
+          "ballsLeft": 1375,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 707,
+          "ballsLeft": 1375,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 707,
+          "ballsLeft": 1375,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.41955128205128206
+    },
+    {
+      "file": "level-02.json",
+      "id": "six-hard-40-02",
+      "name": "第 2 关 · 双车钥匙",
+      "sourceLevel": 3,
+      "gateCount": 3,
+      "seed": 1100012,
+      "mode": 1,
+      "transformSeed": 93002,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-02-c1-s1",
+            "color": "R",
+            "capacity": 220,
+            "slot": 0
+          },
+          {
+            "id": "hard-02-c1-s2",
+            "color": "G",
+            "capacity": 220,
+            "slot": 1
+          },
+          {
+            "id": "hard-02-c1-s3",
+            "color": "B",
+            "capacity": 50,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "hard-02-c2-s1",
+            "color": "G",
+            "capacity": 50,
+            "slot": 0
+          },
+          {
+            "id": "hard-02-c2-s2",
+            "color": "Y",
+            "capacity": 50,
+            "slot": 1
+          },
+          {
+            "id": "hard-02-c2-s3",
+            "color": "O",
+            "capacity": 260,
+            "slot": 2
+          },
+          {
+            "id": "hard-02-c2-s4",
+            "color": "P",
+            "capacity": 260,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "hard-02-c3-s1",
+            "color": "Y",
+            "capacity": 220,
+            "slot": 0
+          },
+          {
+            "id": "hard-02-c3-s2",
+            "color": "R",
+            "capacity": 50,
+            "slot": 1
+          },
+          {
+            "id": "hard-02-c3-s3",
+            "color": "B",
+            "capacity": 220,
+            "slot": 2
+          }
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "R",
+        "Y",
+        "G"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3824,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-02-c2-s1",
+            "color": "G",
+            "column": 2,
+            "capacity": 50,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-02-c3-s1",
+            "color": "Y",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-02-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-02-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "hard-02-c2-s2",
+            "color": "Y",
+            "column": 2,
+            "capacity": 50,
+            "roadBefore": 4,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 131,
+            "id": "hard-02-c2-s3",
+            "color": "O",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1512,
+            "bottomColors": [
+              "B",
+              "Y",
+              "R",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 438,
+            "id": "hard-02-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 5,
+            "ballsLeft": 1382,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "B",
+              "G",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1224,
+            "id": "hard-02-c2-s4",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1281,
+            "bottomColors": [
+              "P",
+              "O",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1332,
+            "id": "hard-02-c1-s2",
+            "color": "G",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 5,
+            "ballsLeft": 1231,
+            "bottomColors": [
+              "P",
+              "B",
+              "O",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 3049,
+            "id": "hard-02-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 375,
+            "bottomColors": [
+              "Y",
+              "B",
+              "O",
+              "P",
+              "G",
+              "R"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3839,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-02-c2-s1",
+            "color": "G",
+            "column": 2,
+            "capacity": 50,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-02-c3-s1",
+            "color": "Y",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 1,
+            "ballsLeft": 1596,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-02-c3-s2",
+            "color": "R",
+            "column": 3,
+            "capacity": 50,
+            "roadBefore": 2,
+            "ballsLeft": 1592,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-02-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 220,
+            "roadBefore": 3,
+            "ballsLeft": 1575,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-02-c2-s2",
+            "color": "Y",
+            "column": 2,
+            "capacity": 50,
+            "roadBefore": 4,
+            "ballsLeft": 1560,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "hard-02-c2-s3",
+            "color": "O",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1542,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 496,
+            "id": "hard-02-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 5,
+            "ballsLeft": 1371,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "P",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 1224,
+            "id": "hard-02-c2-s4",
+            "color": "P",
+            "column": 2,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1282,
+            "bottomColors": [
+              "P",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1332,
+            "id": "hard-02-c1-s2",
+            "color": "G",
+            "column": 1,
+            "capacity": 220,
+            "roadBefore": 5,
+            "ballsLeft": 1231,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 3049,
+            "id": "hard-02-c1-s3",
+            "color": "B",
+            "column": 1,
+            "capacity": 50,
+            "roadBefore": 5,
+            "ballsLeft": 374,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "O",
+              "R",
+              "G"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 1042,
+          "ballsLeft": 1213,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "ticks": 3288,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1237,
+          "ballsLeft": 1425,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 288,
+          "ballsLeft": 1490,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 288,
+          "ballsLeft": 1490,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 288,
+          "ballsLeft": 1490,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.3782051282051282
+    },
+    {
+      "file": "level-03.json",
+      "id": "six-hard-40-03",
+      "name": "第 3 关 · 三列交锁",
+      "sourceLevel": 4,
+      "gateCount": 3,
+      "seed": 1200011,
+      "mode": 0,
+      "transformSeed": 93003,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-03-c1-s1",
+            "color": "O",
+            "capacity": 60,
+            "slot": 0
+          },
+          {
+            "id": "hard-03-c1-s2",
+            "color": "R",
+            "capacity": 60,
+            "slot": 1
+          },
+          {
+            "id": "hard-03-c1-s3",
+            "color": "P",
+            "capacity": 260,
+            "slot": 2
+          },
+          {
+            "id": "hard-03-c1-s4",
+            "color": "Y",
+            "capacity": 210,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "hard-03-c2-s1",
+            "color": "R",
+            "capacity": 210,
+            "slot": 0
+          },
+          {
+            "id": "hard-03-c2-s2",
+            "color": "O",
+            "capacity": 200,
+            "slot": 1
+          },
+          {
+            "id": "hard-03-c2-s3",
+            "color": "Y",
+            "capacity": 60,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "hard-03-c3-s1",
+            "color": "G",
+            "capacity": 60,
+            "slot": 0
+          },
+          {
+            "id": "hard-03-c3-s2",
+            "color": "G",
+            "capacity": 210,
+            "slot": 1
+          },
+          {
+            "id": "hard-03-c3-s3",
+            "color": "B",
+            "capacity": 210,
+            "slot": 2
+          },
+          {
+            "id": "hard-03-c3-s4",
+            "color": "B",
+            "capacity": 60,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "G",
+        "O",
+        "R"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3412,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-03-c1-s1",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-03-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-03-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 2,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-03-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1597,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 7,
+            "id": "hard-03-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1591,
+            "bottomColors": [
+              "G",
+              "R",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 142,
+            "id": "hard-03-c1-s3",
+            "color": "P",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1465,
+            "bottomColors": [
+              "B",
+              "R",
+              "O",
+              "G",
+              "Y",
+              "P"
+            ]
+          },
+          {
+            "tick": 577,
+            "id": "hard-03-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1263,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 771,
+            "id": "hard-03-c1-s4",
+            "color": "Y",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1228,
+            "bottomColors": [
+              "Y",
+              "R",
+              "G",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 886,
+            "id": "hard-03-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1172,
+            "bottomColors": [
+              "R",
+              "G",
+              "Y",
+              "P",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 2414,
+            "id": "hard-03-c3-s4",
+            "color": "B",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 418,
+            "bottomColors": [
+              "B",
+              "Y",
+              "G",
+              "R",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2944,
+            "id": "hard-03-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 160,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "P",
+              "G",
+              "O"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3438,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-03-c1-s1",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-03-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 1,
+            "ballsLeft": 1591,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-03-c1-s2",
+            "color": "R",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 2,
+            "ballsLeft": 1572,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-03-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 3,
+            "ballsLeft": 1562,
+            "bottomColors": [
+              "G",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-03-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1537,
+            "bottomColors": [
+              "G",
+              "R",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "hard-03-c1-s3",
+            "color": "P",
+            "column": 1,
+            "capacity": 260,
+            "roadBefore": 5,
+            "ballsLeft": 1507,
+            "bottomColors": [
+              "G",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 624,
+            "id": "hard-03-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1270,
+            "bottomColors": [
+              "Y",
+              "O",
+              "B",
+              "G",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 771,
+            "id": "hard-03-c1-s4",
+            "color": "Y",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1240,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 889,
+            "id": "hard-03-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1182,
+            "bottomColors": [
+              "R",
+              "G",
+              "Y",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2427,
+            "id": "hard-03-c3-s4",
+            "color": "B",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 427,
+            "bottomColors": [
+              "B",
+              "Y",
+              "G",
+              "R",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2950,
+            "id": "hard-03-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 166,
+            "bottomColors": [
+              "B",
+              "R",
+              "P",
+              "G",
+              "Y",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 503,
+          "ballsLeft": 1559,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1089,
+          "ballsLeft": 1161,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1269,
+          "ballsLeft": 1159,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 288,
+          "ballsLeft": 1469,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 288,
+          "ballsLeft": 1469,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 288,
+          "ballsLeft": 1469,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.4150641025641026
+    },
+    {
+      "file": "level-04.json",
+      "id": "six-hard-40-04",
+      "name": "第 4 关 · 余量陷阱",
+      "sourceLevel": 5,
+      "gateCount": 4,
+      "seed": 1300015,
+      "mode": 1,
+      "transformSeed": 93004,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-04-c1-s1",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 0
+          },
+          {
+            "id": "hard-04-c1-s2",
+            "color": "B",
+            "capacity": 70,
+            "slot": 1
+          },
+          {
+            "id": "hard-04-c1-s3",
+            "color": "P",
+            "capacity": 190,
+            "slot": 2
+          },
+          {
+            "id": "hard-04-c1-s4",
+            "color": "O",
+            "capacity": 190,
+            "slot": 3
+          },
+          {
+            "id": "hard-04-c1-s5",
+            "color": "P",
+            "capacity": 70,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "hard-04-c2-s1",
+            "color": "B",
+            "capacity": 200,
+            "slot": 0
+          },
+          {
+            "id": "hard-04-c2-s2",
+            "color": "O",
+            "capacity": 70,
+            "slot": 1
+          },
+          {
+            "id": "hard-04-c2-s3",
+            "color": "G",
+            "capacity": 200,
+            "slot": 2
+          }
+        ],
+        [
+          {
+            "id": "hard-04-c3-s1",
+            "color": "R",
+            "capacity": 70,
+            "slot": 0
+          },
+          {
+            "id": "hard-04-c3-s2",
+            "color": "Y",
+            "capacity": 200,
+            "slot": 1
+          },
+          {
+            "id": "hard-04-c3-s3",
+            "color": "R",
+            "capacity": 200,
+            "slot": 2
+          },
+          {
+            "id": "hard-04-c3-s4",
+            "color": "G",
+            "capacity": 70,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "O",
+        "R",
+        "Y"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3734,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-04-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-04-c2-s1",
+            "color": "B",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-04-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 2,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-04-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 3,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "hard-04-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 4,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 9,
+            "id": "hard-04-c2-s3",
+            "color": "G",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1587,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 676,
+            "id": "hard-04-c1-s3",
+            "color": "P",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1316,
+            "bottomColors": [
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 1008,
+            "id": "hard-04-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1186,
+            "bottomColors": [
+              "R",
+              "P",
+              "O",
+              "G",
+              "B",
+              "Y"
+            ]
+          },
+          {
+            "tick": 1303,
+            "id": "hard-04-c1-s4",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1101,
+            "bottomColors": [
+              "R",
+              "B",
+              "P",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 1428,
+            "id": "hard-04-c3-s3",
+            "color": "R",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1068,
+            "bottomColors": [
+              "R",
+              "P",
+              "Y",
+              "O",
+              "B"
+            ]
+          },
+          {
+            "tick": 2650,
+            "id": "hard-04-c1-s5",
+            "color": "P",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 450,
+            "bottomColors": [
+              "Y",
+              "G",
+              "P",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2737,
+            "id": "hard-04-c3-s4",
+            "color": "G",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 416,
+            "bottomColors": [
+              "R",
+              "G",
+              "P",
+              "B",
+              "O",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3637,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-04-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-04-c2-s1",
+            "color": "B",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 1,
+            "ballsLeft": 1592,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-04-c2-s2",
+            "color": "O",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 2,
+            "ballsLeft": 1578,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-04-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 3,
+            "ballsLeft": 1565,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-04-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 4,
+            "ballsLeft": 1552,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "hard-04-c2-s3",
+            "color": "G",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1529,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 763,
+            "id": "hard-04-c1-s3",
+            "color": "P",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1320,
+            "bottomColors": [
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 1115,
+            "id": "hard-04-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1176,
+            "bottomColors": [
+              "R",
+              "P",
+              "O",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 1303,
+            "id": "hard-04-c1-s4",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1112,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 1428,
+            "id": "hard-04-c3-s3",
+            "color": "R",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1087,
+            "bottomColors": [
+              "R",
+              "P",
+              "B",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 2650,
+            "id": "hard-04-c1-s5",
+            "color": "P",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 469,
+            "bottomColors": [
+              "Y",
+              "O",
+              "B",
+              "G",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 2767,
+            "id": "hard-04-c3-s4",
+            "color": "G",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 412,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "G",
+              "B",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 929,
+          "ballsLeft": 1420,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1689,
+          "ballsLeft": 1223,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1712,
+          "ballsLeft": 1221,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2130,
+          "ballsLeft": 1200,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1800,
+          "ballsLeft": 1226,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1475,
+          "ballsLeft": 1269,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.38461538461538464
+    },
+    {
+      "file": "level-05.json",
+      "id": "six-hard-40-05",
+      "name": "第 5 关 · 跨列换位",
+      "sourceLevel": 6,
+      "gateCount": 4,
+      "seed": 1400003,
+      "mode": 0,
+      "transformSeed": 93005,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-05-c1-s1",
+            "color": "P",
+            "capacity": 60,
+            "slot": 0
+          },
+          {
+            "id": "hard-05-c1-s2",
+            "color": "Y",
+            "capacity": 60,
+            "slot": 1
+          },
+          {
+            "id": "hard-05-c1-s3",
+            "color": "O",
+            "capacity": 200,
+            "slot": 2
+          },
+          {
+            "id": "hard-05-c1-s4",
+            "color": "B",
+            "capacity": 210,
+            "slot": 3
+          },
+          {
+            "id": "hard-05-c1-s5",
+            "color": "O",
+            "capacity": 60,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "hard-05-c2-s1",
+            "color": "G",
+            "capacity": 60,
+            "slot": 0
+          },
+          {
+            "id": "hard-05-c2-s2",
+            "color": "R",
+            "capacity": 60,
+            "slot": 1
+          },
+          {
+            "id": "hard-05-c2-s3",
+            "color": "Y",
+            "capacity": 210,
+            "slot": 2
+          },
+          {
+            "id": "hard-05-c2-s4",
+            "color": "P",
+            "capacity": 200,
+            "slot": 3
+          },
+          {
+            "id": "hard-05-c2-s5",
+            "color": "R",
+            "capacity": 60,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "hard-05-c3-s1",
+            "color": "R",
+            "capacity": 150,
+            "slot": 0
+          },
+          {
+            "id": "hard-05-c3-s2",
+            "color": "G",
+            "capacity": 210,
+            "slot": 1
+          },
+          {
+            "id": "hard-05-c3-s3",
+            "color": "B",
+            "capacity": 60,
+            "slot": 2
+          }
+        ]
+      ],
+      "initialBottom": [
+        "Y",
+        "B",
+        "P",
+        "G",
+        "R"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3338,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-05-c2-s1",
+            "color": "G",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-05-c2-s2",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-05-c1-s1",
+            "color": "P",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-05-c1-s2",
+            "color": "Y",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 3,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 238,
+            "id": "hard-05-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1502,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 239,
+            "id": "hard-05-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1501,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 652,
+            "id": "hard-05-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 4,
+            "ballsLeft": 1320,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 653,
+            "id": "hard-05-c2-s4",
+            "color": "P",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1319,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 654,
+            "id": "hard-05-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 150,
+            "roadBefore": 5,
+            "ballsLeft": 1319,
+            "bottomColors": [
+              "R",
+              "B",
+              "Y",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 893,
+            "id": "hard-05-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1190,
+            "bottomColors": [
+              "G",
+              "Y",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2219,
+            "id": "hard-05-c1-s5",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 518,
+            "bottomColors": [
+              "G",
+              "R",
+              "Y",
+              "O",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2315,
+            "id": "hard-05-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 472,
+            "bottomColors": [
+              "Y",
+              "R",
+              "O",
+              "P",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 2513,
+            "id": "hard-05-c2-s5",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 381,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G",
+              "O"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3385,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-05-c2-s1",
+            "color": "G",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-05-c2-s2",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 1,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R",
+              "G"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-05-c1-s1",
+            "color": "P",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 2,
+            "ballsLeft": 1590,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-05-c1-s2",
+            "color": "Y",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 3,
+            "ballsLeft": 1573,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 238,
+            "id": "hard-05-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1517,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "P",
+              "G"
+            ]
+          },
+          {
+            "tick": 268,
+            "id": "hard-05-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1506,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 652,
+            "id": "hard-05-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1317,
+            "bottomColors": [
+              "Y",
+              "B",
+              "R",
+              "G",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 682,
+            "id": "hard-05-c2-s4",
+            "color": "P",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 4,
+            "ballsLeft": 1305,
+            "bottomColors": [
+              "R",
+              "B",
+              "P",
+              "O",
+              "G",
+              "Y"
+            ]
+          },
+          {
+            "tick": 712,
+            "id": "hard-05-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 150,
+            "roadBefore": 5,
+            "ballsLeft": 1292,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "P",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 893,
+            "id": "hard-05-c3-s2",
+            "color": "G",
+            "column": 3,
+            "capacity": 210,
+            "roadBefore": 5,
+            "ballsLeft": 1202,
+            "bottomColors": [
+              "R",
+              "P",
+              "B",
+              "G",
+              "Y",
+              "O"
+            ]
+          },
+          {
+            "tick": 2297,
+            "id": "hard-05-c1-s5",
+            "color": "O",
+            "column": 1,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 521,
+            "bottomColors": [
+              "G",
+              "Y",
+              "B",
+              "R",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 2340,
+            "id": "hard-05-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 485,
+            "bottomColors": [
+              "G",
+              "Y",
+              "B",
+              "R",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 2574,
+            "id": "hard-05-c2-s5",
+            "color": "R",
+            "column": 2,
+            "capacity": 60,
+            "roadBefore": 5,
+            "ballsLeft": 371,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "G",
+              "B",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2540,
+          "ballsLeft": 1011,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 713,
+          "ballsLeft": 1491,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1019,
+          "ballsLeft": 1413,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 2015,
+          "ballsLeft": 1329,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1229,
+          "ballsLeft": 1298,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 603,
+          "ballsLeft": 1433,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.40384615384615385
+    },
+    {
+      "file": "level-06.json",
+      "id": "six-hard-40-06",
+      "name": "第 6 关 · 多段接力",
+      "sourceLevel": 7,
+      "gateCount": 4,
+      "seed": 1500006,
+      "mode": 0,
+      "transformSeed": 93006,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-06-c1-s1",
+            "color": "B",
+            "capacity": 70,
+            "slot": 0
+          },
+          {
+            "id": "hard-06-c1-s2",
+            "color": "O",
+            "capacity": 70,
+            "slot": 1
+          },
+          {
+            "id": "hard-06-c1-s3",
+            "color": "Y",
+            "capacity": 200,
+            "slot": 2
+          },
+          {
+            "id": "hard-06-c1-s4",
+            "color": "O",
+            "capacity": 190,
+            "slot": 3
+          },
+          {
+            "id": "hard-06-c1-s5",
+            "color": "P",
+            "capacity": 70,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "hard-06-c2-s1",
+            "color": "R",
+            "capacity": 70,
+            "slot": 0
+          },
+          {
+            "id": "hard-06-c2-s2",
+            "color": "R",
+            "capacity": 70,
+            "slot": 1
+          },
+          {
+            "id": "hard-06-c2-s3",
+            "color": "P",
+            "capacity": 190,
+            "slot": 2
+          },
+          {
+            "id": "hard-06-c2-s4",
+            "color": "G",
+            "capacity": 200,
+            "slot": 3
+          },
+          {
+            "id": "hard-06-c2-s5",
+            "color": "G",
+            "capacity": 70,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "hard-06-c3-s1",
+            "color": "R",
+            "capacity": 130,
+            "slot": 0
+          },
+          {
+            "id": "hard-06-c3-s2",
+            "color": "B",
+            "capacity": 130,
+            "slot": 1
+          },
+          {
+            "id": "hard-06-c3-s3",
+            "color": "B",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "hard-06-c3-s4",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "G",
+        "B",
+        "O",
+        "R"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3957,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-06-c1-s1",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-06-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-06-c1-s2",
+            "color": "O",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 2,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-06-c2-s2",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 3,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 118,
+            "id": "hard-06-c2-s3",
+            "color": "P",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 4,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "G",
+              "B",
+              "P",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 119,
+            "id": "hard-06-c2-s4",
+            "color": "G",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1568,
+            "bottomColors": [
+              "G",
+              "B",
+              "P",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 686,
+            "id": "hard-06-c1-s3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1249,
+            "bottomColors": [
+              "Y",
+              "O",
+              "P",
+              "R",
+              "G"
+            ]
+          },
+          {
+            "tick": 834,
+            "id": "hard-06-c1-s4",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1166,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "G",
+              "O"
+            ]
+          },
+          {
+            "tick": 1092,
+            "id": "hard-06-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 4,
+            "ballsLeft": 1060,
+            "bottomColors": [
+              "P",
+              "O",
+              "G",
+              "Y",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 1093,
+            "id": "hard-06-c3-s2",
+            "color": "B",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 1060,
+            "bottomColors": [
+              "P",
+              "O",
+              "G",
+              "Y",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 1973,
+            "id": "hard-06-c2-s5",
+            "color": "G",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 617,
+            "bottomColors": [
+              "B",
+              "Y",
+              "G",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 3064,
+            "id": "hard-06-c1-s5",
+            "color": "P",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 3,
+            "ballsLeft": 345,
+            "bottomColors": [
+              "P",
+              "Y",
+              "R"
+            ]
+          },
+          {
+            "tick": 3066,
+            "id": "hard-06-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 4,
+            "ballsLeft": 343,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "R"
+            ]
+          },
+          {
+            "tick": 3067,
+            "id": "hard-06-c3-s4",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 343,
+            "bottomColors": [
+              "P",
+              "B",
+              "Y",
+              "R"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 4749,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-06-c1-s1",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "G",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-06-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 1,
+            "ballsLeft": 1592,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-06-c1-s2",
+            "color": "O",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 2,
+            "ballsLeft": 1587,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-06-c2-s2",
+            "color": "R",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 3,
+            "ballsLeft": 1581,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-06-c2-s3",
+            "color": "P",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 4,
+            "ballsLeft": 1575,
+            "bottomColors": [
+              "G",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "hard-06-c2-s4",
+            "color": "G",
+            "column": 2,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1564,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 793,
+            "id": "hard-06-c1-s3",
+            "color": "Y",
+            "column": 1,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1233,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "P"
+            ]
+          },
+          {
+            "tick": 854,
+            "id": "hard-06-c1-s4",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1195,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P"
+            ]
+          },
+          {
+            "tick": 1092,
+            "id": "hard-06-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 1089,
+            "bottomColors": [
+              "Y",
+              "R",
+              "O",
+              "G",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 1253,
+            "id": "hard-06-c3-s2",
+            "color": "B",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 1017,
+            "bottomColors": [
+              "P",
+              "O",
+              "Y",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 2004,
+            "id": "hard-06-c2-s5",
+            "color": "G",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 639,
+            "bottomColors": [
+              "B",
+              "O",
+              "R",
+              "Y",
+              "G",
+              "P"
+            ]
+          },
+          {
+            "tick": 3064,
+            "id": "hard-06-c1-s5",
+            "color": "P",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 4,
+            "ballsLeft": 363,
+            "bottomColors": [
+              "P",
+              "Y",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 3094,
+            "id": "hard-06-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 353,
+            "bottomColors": [
+              "P",
+              "R",
+              "Y",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 4192,
+            "id": "hard-06-c3-s4",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 243,
+            "bottomColors": [
+              "Y",
+              "B"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 1235,
+          "ballsLeft": 1445,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 282,
+          "ballsLeft": 1533,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 285,
+          "ballsLeft": 1513,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 489,
+          "ballsLeft": 1498,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 489,
+          "ballsLeft": 1498,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 489,
+          "ballsLeft": 1498,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.40032051282051284
+    },
+    {
+      "file": "level-07.json",
+      "id": "six-hard-40-07",
+      "name": "第 7 关 · 深层周转",
+      "sourceLevel": 9,
+      "gateCount": 3,
+      "seed": 1700007,
+      "mode": 0,
+      "transformSeed": 93007,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-07-c1-s1",
+            "color": "P",
+            "capacity": 80,
+            "slot": 0
+          },
+          {
+            "id": "hard-07-c1-s2",
+            "color": "B",
+            "capacity": 80,
+            "slot": 1
+          },
+          {
+            "id": "hard-07-c1-s3",
+            "color": "G",
+            "capacity": 110,
+            "slot": 2
+          },
+          {
+            "id": "hard-07-c1-s4",
+            "color": "P",
+            "capacity": 180,
+            "slot": 3
+          },
+          {
+            "id": "hard-07-c1-s5",
+            "color": "Y",
+            "capacity": 80,
+            "slot": 4
+          },
+          {
+            "id": "hard-07-c1-s6",
+            "color": "G",
+            "capacity": 80,
+            "slot": 5
+          }
+        ],
+        [
+          {
+            "id": "hard-07-c2-s1",
+            "color": "B",
+            "capacity": 110,
+            "slot": 0
+          },
+          {
+            "id": "hard-07-c2-s2",
+            "color": "R",
+            "capacity": 110,
+            "slot": 1
+          },
+          {
+            "id": "hard-07-c2-s3",
+            "color": "Y",
+            "capacity": 80,
+            "slot": 2
+          },
+          {
+            "id": "hard-07-c2-s4",
+            "color": "B",
+            "capacity": 80,
+            "slot": 3
+          },
+          {
+            "id": "hard-07-c2-s5",
+            "color": "O",
+            "capacity": 80,
+            "slot": 4
+          },
+          {
+            "id": "hard-07-c2-s6",
+            "color": "R",
+            "capacity": 80,
+            "slot": 5
+          }
+        ],
+        [
+          {
+            "id": "hard-07-c3-s1",
+            "color": "R",
+            "capacity": 80,
+            "slot": 0
+          },
+          {
+            "id": "hard-07-c3-s2",
+            "color": "Y",
+            "capacity": 110,
+            "slot": 1
+          },
+          {
+            "id": "hard-07-c3-s3",
+            "color": "O",
+            "capacity": 180,
+            "slot": 2
+          },
+          {
+            "id": "hard-07-c3-s4",
+            "color": "G",
+            "capacity": 80,
+            "slot": 3
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "Y",
+        "P",
+        "B"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3540,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-07-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-07-c1-s1",
+            "color": "P",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 1,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-07-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 2,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-07-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 3,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 22,
+            "id": "hard-07-c3-s3",
+            "color": "O",
+            "column": 3,
+            "capacity": 180,
+            "roadBefore": 4,
+            "ballsLeft": 1579,
+            "bottomColors": [
+              "R",
+              "Y",
+              "P",
+              "B",
+              "O"
+            ]
+          },
+          {
+            "tick": 113,
+            "id": "hard-07-c1-s3",
+            "color": "G",
+            "column": 1,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 1551,
+            "bottomColors": [
+              "R",
+              "G",
+              "O",
+              "Y",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 875,
+            "id": "hard-07-c1-s4",
+            "color": "P",
+            "column": 1,
+            "capacity": 180,
+            "roadBefore": 5,
+            "ballsLeft": 1169,
+            "bottomColors": [
+              "Y",
+              "O",
+              "R",
+              "P",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 1116,
+            "id": "hard-07-c2-s1",
+            "color": "B",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 4,
+            "ballsLeft": 1031,
+            "bottomColors": [
+              "B",
+              "P",
+              "G",
+              "Y",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 1117,
+            "id": "hard-07-c2-s2",
+            "color": "R",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 1028,
+            "bottomColors": [
+              "Y",
+              "P",
+              "G",
+              "O",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 1321,
+            "id": "hard-07-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 938,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 1899,
+            "id": "hard-07-c3-s4",
+            "color": "G",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 712,
+            "bottomColors": [
+              "G",
+              "O",
+              "P",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2531,
+            "id": "hard-07-c2-s4",
+            "color": "B",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 3,
+            "ballsLeft": 511,
+            "bottomColors": [
+              "G",
+              "O",
+              "Y",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2532,
+            "id": "hard-07-c2-s5",
+            "color": "O",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 511,
+            "bottomColors": [
+              "G",
+              "O",
+              "Y",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2533,
+            "id": "hard-07-c1-s5",
+            "color": "Y",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 511,
+            "bottomColors": [
+              "G",
+              "O",
+              "Y",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2781,
+            "id": "hard-07-c1-s6",
+            "color": "G",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 365,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "Y",
+              "P",
+              "G"
+            ]
+          },
+          {
+            "tick": 2884,
+            "id": "hard-07-c2-s6",
+            "color": "R",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 320,
+            "bottomColors": [
+              "R",
+              "B",
+              "G",
+              "Y",
+              "P",
+              "O"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 3593,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-07-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-07-c1-s1",
+            "color": "P",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 1,
+            "ballsLeft": 1592,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-07-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 2,
+            "ballsLeft": 1586,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-07-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 3,
+            "ballsLeft": 1582,
+            "bottomColors": [
+              "Y",
+              "R",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-07-c3-s3",
+            "color": "O",
+            "column": 3,
+            "capacity": 180,
+            "roadBefore": 4,
+            "ballsLeft": 1557,
+            "bottomColors": [
+              "R",
+              "Y",
+              "O",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "hard-07-c1-s3",
+            "color": "G",
+            "column": 1,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 1535,
+            "bottomColors": [
+              "R",
+              "Y",
+              "O",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 875,
+            "id": "hard-07-c1-s4",
+            "color": "P",
+            "column": 1,
+            "capacity": 180,
+            "roadBefore": 5,
+            "ballsLeft": 1185,
+            "bottomColors": [
+              "P",
+              "R",
+              "O",
+              "G",
+              "Y",
+              "B"
+            ]
+          },
+          {
+            "tick": 1116,
+            "id": "hard-07-c2-s1",
+            "color": "B",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 1064,
+            "bottomColors": [
+              "B",
+              "G",
+              "Y",
+              "P",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 1251,
+            "id": "hard-07-c2-s2",
+            "color": "R",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 988,
+            "bottomColors": [
+              "Y",
+              "O",
+              "B",
+              "P",
+              "R",
+              "G"
+            ]
+          },
+          {
+            "tick": 1321,
+            "id": "hard-07-c2-s3",
+            "color": "Y",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 963,
+            "bottomColors": [
+              "Y",
+              "P",
+              "B",
+              "R",
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 1899,
+            "id": "hard-07-c3-s4",
+            "color": "G",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 730,
+            "bottomColors": [
+              "G",
+              "O",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 2531,
+            "id": "hard-07-c2-s4",
+            "color": "B",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 509,
+            "bottomColors": [
+              "G",
+              "O",
+              "Y",
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2561,
+            "id": "hard-07-c2-s5",
+            "color": "O",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 503,
+            "bottomColors": [
+              "B",
+              "O",
+              "Y",
+              "R",
+              "G"
+            ]
+          },
+          {
+            "tick": 2591,
+            "id": "hard-07-c1-s5",
+            "color": "Y",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 482,
+            "bottomColors": [
+              "B",
+              "O",
+              "Y",
+              "G",
+              "R",
+              "P"
+            ]
+          },
+          {
+            "tick": 2876,
+            "id": "hard-07-c1-s6",
+            "color": "G",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 353,
+            "bottomColors": [
+              "B",
+              "O",
+              "G",
+              "R",
+              "Y",
+              "P"
+            ]
+          },
+          {
+            "tick": 2982,
+            "id": "hard-07-c2-s6",
+            "color": "R",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 297,
+            "bottomColors": [
+              "O",
+              "G",
+              "B",
+              "P",
+              "R",
+              "Y"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 1787,
+          "ballsLeft": 1420,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 4049,
+          "ballsLeft": 1226,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2966,
+          "ballsLeft": 1376,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 498,
+          "ballsLeft": 1472,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 498,
+          "ballsLeft": 1472,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 498,
+          "ballsLeft": 1472,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.39839743589743587
+    },
+    {
+      "file": "level-08.json",
+      "id": "six-hard-40-08",
+      "name": "第 8 关 · 双底色困局",
+      "sourceLevel": 8,
+      "gateCount": 2,
+      "seed": 1600001,
+      "mode": 1,
+      "transformSeed": 93008,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-08-c1-s1",
+            "color": "Y",
+            "capacity": 130,
+            "slot": 0
+          },
+          {
+            "id": "hard-08-c1-s2",
+            "color": "B",
+            "capacity": 70,
+            "slot": 1
+          },
+          {
+            "id": "hard-08-c1-s3",
+            "color": "O",
+            "capacity": 190,
+            "slot": 2
+          },
+          {
+            "id": "hard-08-c1-s4",
+            "color": "R",
+            "capacity": 70,
+            "slot": 3
+          }
+        ],
+        [
+          {
+            "id": "hard-08-c2-s1",
+            "color": "R",
+            "capacity": 130,
+            "slot": 0
+          },
+          {
+            "id": "hard-08-c2-s2",
+            "color": "B",
+            "capacity": 70,
+            "slot": 1
+          },
+          {
+            "id": "hard-08-c2-s3",
+            "color": "P",
+            "capacity": 190,
+            "slot": 2
+          },
+          {
+            "id": "hard-08-c2-s4",
+            "color": "O",
+            "capacity": 70,
+            "slot": 3
+          },
+          {
+            "id": "hard-08-c2-s5",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "hard-08-c3-s1",
+            "color": "G",
+            "capacity": 200,
+            "slot": 0
+          },
+          {
+            "id": "hard-08-c3-s2",
+            "color": "B",
+            "capacity": 130,
+            "slot": 1
+          },
+          {
+            "id": "hard-08-c3-s3",
+            "color": "G",
+            "capacity": 70,
+            "slot": 2
+          },
+          {
+            "id": "hard-08-c3-s4",
+            "color": "P",
+            "capacity": 70,
+            "slot": 3
+          },
+          {
+            "id": "hard-08-c3-s5",
+            "color": "R",
+            "capacity": 70,
+            "slot": 4
+          },
+          {
+            "id": "hard-08-c3-s6",
+            "color": "Y",
+            "capacity": 70,
+            "slot": 5
+          }
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "R"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 3516,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-08-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 130,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-08-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 1,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-08-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 130,
+            "roadBefore": 2,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-08-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 3,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "hard-08-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 4,
+            "ballsLeft": 1595,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-08-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1519,
+            "bottomColors": [
+              "O",
+              "R",
+              "Y",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 1098,
+            "id": "hard-08-c2-s3",
+            "color": "P",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1099,
+            "bottomColors": [
+              "G",
+              "Y",
+              "O",
+              "P",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 1330,
+            "id": "hard-08-c1-s4",
+            "color": "R",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 981,
+            "bottomColors": [
+              "O",
+              "Y",
+              "P",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 1525,
+            "id": "hard-08-c3-s2",
+            "color": "B",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 905,
+            "bottomColors": [
+              "R",
+              "O",
+              "B",
+              "Y",
+              "G",
+              "P"
+            ]
+          },
+          {
+            "tick": 1751,
+            "id": "hard-08-c2-s4",
+            "color": "O",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 783,
+            "bottomColors": [
+              "O",
+              "P",
+              "G",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2275,
+            "id": "hard-08-c2-s5",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 542,
+            "bottomColors": [
+              "B",
+              "Y",
+              "P",
+              "O",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 2614,
+            "id": "hard-08-c3-s3",
+            "color": "G",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 4,
+            "ballsLeft": 367,
+            "bottomColors": [
+              "Y",
+              "P",
+              "G",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2615,
+            "id": "hard-08-c3-s4",
+            "color": "P",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 366,
+            "bottomColors": [
+              "Y",
+              "P",
+              "G",
+              "B",
+              "O",
+              "R"
+            ]
+          },
+          {
+            "tick": 2721,
+            "id": "hard-08-c3-s5",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 324,
+            "bottomColors": [
+              "Y",
+              "P",
+              "R",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 2729,
+            "id": "hard-08-c3-s6",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 312,
+            "bottomColors": [
+              "Y",
+              "G",
+              "R",
+              "B",
+              "P"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 4245,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-08-c2-s1",
+            "color": "R",
+            "column": 2,
+            "capacity": 130,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-08-c2-s2",
+            "color": "B",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 1,
+            "ballsLeft": 1590,
+            "bottomColors": [
+              "B",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-08-c1-s1",
+            "color": "Y",
+            "column": 1,
+            "capacity": 130,
+            "roadBefore": 2,
+            "ballsLeft": 1563,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-08-c1-s2",
+            "color": "B",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 3,
+            "ballsLeft": 1557,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-08-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 190,
+            "roadBefore": 4,
+            "ballsLeft": 1532,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y"
+            ]
+          },
+          {
+            "tick": 150,
+            "id": "hard-08-c3-s1",
+            "color": "G",
+            "column": 3,
+            "capacity": 200,
+            "roadBefore": 5,
+            "ballsLeft": 1504,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G",
+              "P"
+            ]
+          },
+          {
+            "tick": 1127,
+            "id": "hard-08-c2-s3",
+            "color": "P",
+            "column": 2,
+            "capacity": 190,
+            "roadBefore": 5,
+            "ballsLeft": 1098,
+            "bottomColors": [
+              "G",
+              "Y",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 1411,
+            "id": "hard-08-c1-s4",
+            "color": "R",
+            "column": 1,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 968,
+            "bottomColors": [
+              "O",
+              "P",
+              "Y",
+              "R",
+              "B",
+              "G"
+            ]
+          },
+          {
+            "tick": 1525,
+            "id": "hard-08-c3-s2",
+            "color": "B",
+            "column": 3,
+            "capacity": 130,
+            "roadBefore": 5,
+            "ballsLeft": 907,
+            "bottomColors": [
+              "R",
+              "O",
+              "Y",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 1764,
+            "id": "hard-08-c2-s4",
+            "color": "O",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 789,
+            "bottomColors": [
+              "O",
+              "G",
+              "P",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 2275,
+            "id": "hard-08-c2-s5",
+            "color": "Y",
+            "column": 2,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 534,
+            "bottomColors": [
+              "G",
+              "Y",
+              "B",
+              "O",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 2624,
+            "id": "hard-08-c3-s3",
+            "color": "G",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 366,
+            "bottomColors": [
+              "Y",
+              "P",
+              "G",
+              "B",
+              "R",
+              "O"
+            ]
+          },
+          {
+            "tick": 2654,
+            "id": "hard-08-c3-s4",
+            "color": "P",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 350,
+            "bottomColors": [
+              "Y",
+              "G",
+              "B",
+              "R",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 2721,
+            "id": "hard-08-c3-s5",
+            "color": "R",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 332,
+            "bottomColors": [
+              "Y",
+              "G",
+              "R",
+              "O",
+              "P"
+            ]
+          },
+          {
+            "tick": 3739,
+            "id": "hard-08-c3-s6",
+            "color": "Y",
+            "column": 3,
+            "capacity": 70,
+            "roadBefore": 5,
+            "ballsLeft": 193,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 499,
+          "ballsLeft": 1394,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 2422,
+          "ballsLeft": 1289,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1398,
+          "ballsLeft": 1121,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 1033,
+          "ballsLeft": 1353,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1033,
+          "ballsLeft": 1353,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1033,
+          "ballsLeft": 1353,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.4266025641025641
+    },
+    {
+      "file": "level-09.json",
+      "id": "six-hard-40-09",
+      "name": "第 9 关 · 六色总调度",
+      "sourceLevel": 9,
+      "gateCount": 4,
+      "seed": 1700002,
+      "mode": 0,
+      "transformSeed": 93009,
+      "counts": {
+        "balls": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        },
+        "capacity": {
+          "R": 270,
+          "B": 270,
+          "Y": 270,
+          "G": 270,
+          "O": 260,
+          "P": 260
+        }
+      },
+      "garage": [
+        [
+          {
+            "id": "hard-09-c1-s1",
+            "color": "R",
+            "capacity": 80,
+            "slot": 0
+          },
+          {
+            "id": "hard-09-c1-s2",
+            "color": "P",
+            "capacity": 180,
+            "slot": 1
+          },
+          {
+            "id": "hard-09-c1-s3",
+            "color": "O",
+            "capacity": 180,
+            "slot": 2
+          },
+          {
+            "id": "hard-09-c1-s4",
+            "color": "B",
+            "capacity": 80,
+            "slot": 3
+          },
+          {
+            "id": "hard-09-c1-s5",
+            "color": "B",
+            "capacity": 80,
+            "slot": 4
+          }
+        ],
+        [
+          {
+            "id": "hard-09-c2-s1",
+            "color": "P",
+            "capacity": 80,
+            "slot": 0
+          },
+          {
+            "id": "hard-09-c2-s2",
+            "color": "Y",
+            "capacity": 80,
+            "slot": 1
+          },
+          {
+            "id": "hard-09-c2-s3",
+            "color": "G",
+            "capacity": 110,
+            "slot": 2
+          },
+          {
+            "id": "hard-09-c2-s4",
+            "color": "R",
+            "capacity": 110,
+            "slot": 3
+          },
+          {
+            "id": "hard-09-c2-s5",
+            "color": "G",
+            "capacity": 80,
+            "slot": 4
+          },
+          {
+            "id": "hard-09-c2-s6",
+            "color": "G",
+            "capacity": 80,
+            "slot": 5
+          }
+        ],
+        [
+          {
+            "id": "hard-09-c3-s1",
+            "color": "R",
+            "capacity": 80,
+            "slot": 0
+          },
+          {
+            "id": "hard-09-c3-s2",
+            "color": "Y",
+            "capacity": 110,
+            "slot": 1
+          },
+          {
+            "id": "hard-09-c3-s3",
+            "color": "B",
+            "capacity": 110,
+            "slot": 2
+          },
+          {
+            "id": "hard-09-c3-s4",
+            "color": "O",
+            "capacity": 80,
+            "slot": 3
+          },
+          {
+            "id": "hard-09-c3-s5",
+            "color": "Y",
+            "capacity": 80,
+            "slot": 4
+          }
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "Y",
+        "B",
+        "P"
+      ],
+      "route": {
+        "status": "won",
+        "ticks": 6563,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-09-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 1,
+            "id": "hard-09-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 1,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 2,
+            "id": "hard-09-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 2,
+            "ballsLeft": 1599,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 3,
+            "id": "hard-09-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 3,
+            "ballsLeft": 1598,
+            "bottomColors": [
+              "O",
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 4,
+            "id": "hard-09-c3-s4",
+            "color": "O",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 1597,
+            "bottomColors": [
+              "O",
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 2824,
+            "id": "hard-09-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 3,
+            "ballsLeft": 1257,
+            "bottomColors": [
+              "O",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 3255,
+            "id": "hard-09-c2-s2",
+            "color": "Y",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 1249,
+            "bottomColors": [
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 3256,
+            "id": "hard-09-c2-s3",
+            "color": "G",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 1249,
+            "bottomColors": [
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 3693,
+            "id": "hard-09-c1-s2",
+            "color": "P",
+            "column": 1,
+            "capacity": 180,
+            "roadBefore": 5,
+            "ballsLeft": 1085,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "G",
+              "Y",
+              "B"
+            ]
+          },
+          {
+            "tick": 4574,
+            "id": "hard-09-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 180,
+            "roadBefore": 5,
+            "ballsLeft": 929,
+            "bottomColors": [
+              "O",
+              "Y",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 4651,
+            "id": "hard-09-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 893,
+            "bottomColors": [
+              "R",
+              "Y",
+              "O",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 5330,
+            "id": "hard-09-c3-s5",
+            "color": "Y",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 3,
+            "ballsLeft": 619,
+            "bottomColors": [
+              "B",
+              "G",
+              "Y",
+              "P",
+              "O"
+            ]
+          },
+          {
+            "tick": 5344,
+            "id": "hard-09-c2-s4",
+            "color": "R",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 4,
+            "ballsLeft": 607,
+            "bottomColors": [
+              "B",
+              "G",
+              "Y",
+              "O",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 5345,
+            "id": "hard-09-c2-s5",
+            "color": "G",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 607,
+            "bottomColors": [
+              "B",
+              "G",
+              "Y",
+              "O",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 5551,
+            "id": "hard-09-c1-s5",
+            "color": "B",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 510,
+            "bottomColors": [
+              "O",
+              "G",
+              "R",
+              "B",
+              "P",
+              "Y"
+            ]
+          },
+          {
+            "tick": 6000,
+            "id": "hard-09-c2-s6",
+            "color": "G",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 273,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G",
+              "O"
+            ]
+          }
+        ]
+      },
+      "human": {
+        "status": "won",
+        "ticks": 6614,
+        "ballsLeft": 0,
+        "peak": 6,
+        "dispatches": [
+          {
+            "tick": 0,
+            "id": "hard-09-c3-s1",
+            "color": "R",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 0,
+            "ballsLeft": 1600,
+            "bottomColors": [
+              "R",
+              "Y",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 30,
+            "id": "hard-09-c2-s1",
+            "color": "P",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 1,
+            "ballsLeft": 1594,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 60,
+            "id": "hard-09-c3-s2",
+            "color": "Y",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 2,
+            "ballsLeft": 1585,
+            "bottomColors": [
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 90,
+            "id": "hard-09-c3-s3",
+            "color": "B",
+            "column": 3,
+            "capacity": 110,
+            "roadBefore": 3,
+            "ballsLeft": 1569,
+            "bottomColors": [
+              "O",
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 120,
+            "id": "hard-09-c3-s4",
+            "color": "O",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 1557,
+            "bottomColors": [
+              "O",
+              "Y",
+              "B",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 2824,
+            "id": "hard-09-c1-s1",
+            "color": "R",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 3,
+            "ballsLeft": 1257,
+            "bottomColors": [
+              "O",
+              "G",
+              "R"
+            ]
+          },
+          {
+            "tick": 3255,
+            "id": "hard-09-c2-s2",
+            "color": "Y",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 4,
+            "ballsLeft": 1249,
+            "bottomColors": [
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 3285,
+            "id": "hard-09-c2-s3",
+            "color": "G",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 5,
+            "ballsLeft": 1249,
+            "bottomColors": [
+              "O",
+              "G"
+            ]
+          },
+          {
+            "tick": 3693,
+            "id": "hard-09-c1-s2",
+            "color": "P",
+            "column": 1,
+            "capacity": 180,
+            "roadBefore": 5,
+            "ballsLeft": 1088,
+            "bottomColors": [
+              "O",
+              "R",
+              "P",
+              "G",
+              "B"
+            ]
+          },
+          {
+            "tick": 4574,
+            "id": "hard-09-c1-s3",
+            "color": "O",
+            "column": 1,
+            "capacity": 180,
+            "roadBefore": 5,
+            "ballsLeft": 928,
+            "bottomColors": [
+              "O",
+              "Y",
+              "P",
+              "B"
+            ]
+          },
+          {
+            "tick": 4651,
+            "id": "hard-09-c1-s4",
+            "color": "B",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 891,
+            "bottomColors": [
+              "R",
+              "Y",
+              "O",
+              "B",
+              "P"
+            ]
+          },
+          {
+            "tick": 5330,
+            "id": "hard-09-c3-s5",
+            "color": "Y",
+            "column": 3,
+            "capacity": 80,
+            "roadBefore": 3,
+            "ballsLeft": 621,
+            "bottomColors": [
+              "Y",
+              "G",
+              "P",
+              "O",
+              "R",
+              "B"
+            ]
+          },
+          {
+            "tick": 5360,
+            "id": "hard-09-c2-s4",
+            "color": "R",
+            "column": 2,
+            "capacity": 110,
+            "roadBefore": 4,
+            "ballsLeft": 603,
+            "bottomColors": [
+              "B",
+              "G",
+              "Y",
+              "O",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 5390,
+            "id": "hard-09-c2-s5",
+            "color": "G",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 597,
+            "bottomColors": [
+              "B",
+              "G",
+              "Y",
+              "O",
+              "P",
+              "R"
+            ]
+          },
+          {
+            "tick": 5734,
+            "id": "hard-09-c1-s5",
+            "color": "B",
+            "column": 1,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 424,
+            "bottomColors": [
+              "O",
+              "R",
+              "B",
+              "P",
+              "Y",
+              "G"
+            ]
+          },
+          {
+            "tick": 6041,
+            "id": "hard-09-c2-s6",
+            "color": "G",
+            "column": 2,
+            "capacity": 80,
+            "roadBefore": 5,
+            "ballsLeft": 265,
+            "bottomColors": [
+              "B",
+              "R",
+              "Y",
+              "G",
+              "P",
+              "O"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 713,
+          "ballsLeft": 1472,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 4031,
+          "ballsLeft": 1047,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 1041,
+          "ballsLeft": 1436,
+          "peak": 6
+        }
+      ],
+      "lateBranches": [
+        {
+          "order": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "ticks": 178,
+          "ballsLeft": 1511,
+          "peak": 6
+        },
+        {
+          "order": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "ticks": 178,
+          "ballsLeft": 1511,
+          "peak": 6
+        },
+        {
+          "order": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "ticks": 178,
+          "ballsLeft": 1511,
+          "peak": 6
+        }
+      ],
+      "adjacentSameRatio": 0.3955128205128205
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.pattern-shell { max-width: 1440px; }
+.tool-back { color: #dcebf1; text-decoration: none; font-weight: 700; }
+.pattern-layout { display: grid; grid-template-columns: minmax(300px, 390px) minmax(0, 1fr); gap: 20px; align-items: start; }
+.pattern-inputs, .pattern-result { min-width: 0; }
+.pattern-inputs h2 { margin-top: 0; }
+.pattern-modes { display: flex; gap: 18px; flex-wrap: wrap; margin: 16px 0; }
+.pattern-modes label { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; }
+.pattern-inputs .field { margin-bottom: 14px; }
+.pattern-inputs textarea { width: 100%; min-height: 150px; font: 15px/1.5 ui-monospace, Consolas, monospace; }
+.pattern-canvas-wrap { overflow: auto; border: 1px solid #bfd0d9; border-radius: 12px; background: #e7eef2; padding: 12px; min-height: 240px; }
+#patternPreview { display: block; width: 100%; image-rendering: pixelated; }
+#patternStatus.error-text { color: #bc3c3c; }
+@media (max-width: 820px) { .pattern-layout { grid-template-columns: 1fr; } }

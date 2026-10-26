@@ -1,0 +1,1334 @@
+{
+  "verifiedAt": "2026-10-21T06:10:15.185Z",
+  "engine": "color-transit-demo/src/engine.js + src/gravity.js",
+  "levels": [
+    {
+      "file": "level-01.json",
+      "id": "pack-40-01",
+      "name": "第 1 关 · 双线先行",
+      "seed": 17001,
+      "colorBalls": {
+        "R": 400,
+        "B": 400,
+        "Y": 400,
+        "G": 400
+      },
+      "colorCapacity": {
+        "R": 400,
+        "B": 400,
+        "Y": 400,
+        "G": 400
+      },
+      "vehicles": 5,
+      "garage": [
+        [
+          "L-17001-1:R400",
+          "L-17001-4:B200"
+        ],
+        [
+          "L-17001-2:B200",
+          "L-17001-5:G400"
+        ],
+        [
+          "L-17001-3:Y400"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17001-1",
+          "color": "R",
+          "column": 1,
+          "capacity": 400
+        },
+        {
+          "tick": 1,
+          "id": "L-17001-2",
+          "color": "B",
+          "column": 2,
+          "capacity": 200
+        },
+        {
+          "tick": 2,
+          "id": "L-17001-4",
+          "color": "B",
+          "column": 1,
+          "capacity": 200
+        },
+        {
+          "tick": 455,
+          "id": "L-17001-3",
+          "color": "Y",
+          "column": 3,
+          "capacity": 400
+        },
+        {
+          "tick": 1426,
+          "id": "L-17001-5",
+          "color": "G",
+          "column": 2,
+          "capacity": 400
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 4,
+        "ticks": 3592,
+        "dispatches": 5,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "tick": 3601,
+          "ballsLeft": 0,
+          "peak": 5
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "tick": 3586,
+          "ballsLeft": 0,
+          "peak": 5
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "tick": 3674,
+          "ballsLeft": 0,
+          "peak": 5
+        }
+      ]
+    },
+    {
+      "file": "level-02.json",
+      "id": "pack-40-02",
+      "name": "第 2 关 · 错位车头",
+      "seed": 17101,
+      "colorBalls": {
+        "R": 470,
+        "B": 410,
+        "Y": 360,
+        "G": 360
+      },
+      "colorCapacity": {
+        "R": 470,
+        "B": 410,
+        "Y": 360,
+        "G": 360
+      },
+      "vehicles": 6,
+      "garage": [
+        [
+          "L-17101-1:B205",
+          "L-17101-4:R235"
+        ],
+        [
+          "L-17101-2:R235",
+          "L-17101-5:B205"
+        ],
+        [
+          "L-17101-3:Y360",
+          "L-17101-6:G360"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17101-2",
+          "color": "R",
+          "column": 2,
+          "capacity": 235
+        },
+        {
+          "tick": 1,
+          "id": "L-17101-1",
+          "color": "B",
+          "column": 1,
+          "capacity": 205
+        },
+        {
+          "tick": 2,
+          "id": "L-17101-5",
+          "color": "B",
+          "column": 2,
+          "capacity": 205
+        },
+        {
+          "tick": 3,
+          "id": "L-17101-4",
+          "color": "R",
+          "column": 1,
+          "capacity": 235
+        },
+        {
+          "tick": 464,
+          "id": "L-17101-3",
+          "color": "Y",
+          "column": 3,
+          "capacity": 360
+        },
+        {
+          "tick": 1359,
+          "id": "L-17101-6",
+          "color": "G",
+          "column": 3,
+          "capacity": 360
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 3044,
+        "dispatches": 6,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "tick": 3035,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "won",
+          "tick": 3046,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "won",
+          "tick": 2931,
+          "ballsLeft": 0,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-03.json",
+      "id": "pack-40-03",
+      "name": "第 3 关 · 三段解锁",
+      "seed": 17201,
+      "colorBalls": {
+        "R": 466,
+        "B": 468,
+        "Y": 346,
+        "G": 320
+      },
+      "colorCapacity": {
+        "R": 466,
+        "B": 468,
+        "Y": 346,
+        "G": 320
+      },
+      "vehicles": 7,
+      "garage": [
+        [
+          "L-17201-1:Y173",
+          "L-17201-4:R233",
+          "L-17201-7:G320"
+        ],
+        [
+          "L-17201-2:B234",
+          "L-17201-5:Y173"
+        ],
+        [
+          "L-17201-3:R233",
+          "L-17201-6:B234"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17201-3",
+          "color": "R",
+          "column": 3,
+          "capacity": 233
+        },
+        {
+          "tick": 1,
+          "id": "L-17201-2",
+          "color": "B",
+          "column": 2,
+          "capacity": 234
+        },
+        {
+          "tick": 2,
+          "id": "L-17201-6",
+          "color": "B",
+          "column": 3,
+          "capacity": 234
+        },
+        {
+          "tick": 3,
+          "id": "L-17201-1",
+          "color": "Y",
+          "column": 1,
+          "capacity": 173
+        },
+        {
+          "tick": 4,
+          "id": "L-17201-4",
+          "color": "R",
+          "column": 1,
+          "capacity": 233
+        },
+        {
+          "tick": 5,
+          "id": "L-17201-7",
+          "color": "G",
+          "column": 1,
+          "capacity": 320
+        },
+        {
+          "tick": 893,
+          "id": "L-17201-5",
+          "color": "Y",
+          "column": 2,
+          "capacity": 173
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 2855,
+        "dispatches": 7,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "tick": 3064,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "tick": 1127,
+          "ballsLeft": 840,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "tick": 1232,
+          "ballsLeft": 840,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-04.json",
+      "id": "pack-40-04",
+      "name": "第 4 关 · 交错转接",
+      "seed": 17303,
+      "colorBalls": {
+        "R": 360,
+        "B": 480,
+        "Y": 440,
+        "G": 320
+      },
+      "colorCapacity": {
+        "R": 360,
+        "B": 480,
+        "Y": 440,
+        "G": 320
+      },
+      "vehicles": 8,
+      "garage": [
+        [
+          "L-17303-1:B240",
+          "L-17303-4:Y220",
+          "L-17303-7:Y220"
+        ],
+        [
+          "L-17303-2:G160",
+          "L-17303-5:R180",
+          "L-17303-8:G160"
+        ],
+        [
+          "L-17303-3:B240",
+          "L-17303-6:R180"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17303-3",
+          "color": "B",
+          "column": 3,
+          "capacity": 240
+        },
+        {
+          "tick": 1,
+          "id": "L-17303-6",
+          "color": "R",
+          "column": 3,
+          "capacity": 180
+        },
+        {
+          "tick": 2,
+          "id": "L-17303-1",
+          "color": "B",
+          "column": 1,
+          "capacity": 240
+        },
+        {
+          "tick": 3,
+          "id": "L-17303-2",
+          "color": "G",
+          "column": 2,
+          "capacity": 160
+        },
+        {
+          "tick": 4,
+          "id": "L-17303-5",
+          "color": "R",
+          "column": 2,
+          "capacity": 180
+        },
+        {
+          "tick": 21,
+          "id": "L-17303-4",
+          "color": "Y",
+          "column": 1,
+          "capacity": 220
+        },
+        {
+          "tick": 925,
+          "id": "L-17303-7",
+          "color": "Y",
+          "column": 1,
+          "capacity": 220
+        },
+        {
+          "tick": 1417,
+          "id": "L-17303-8",
+          "color": "G",
+          "column": 2,
+          "capacity": 160
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 3060,
+        "dispatches": 8,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "tick": 3185,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "tick": 693,
+          "ballsLeft": 1300,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "tick": 691,
+          "ballsLeft": 1300,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-05.json",
+      "id": "pack-40-05",
+      "name": "第 5 关 · 保留通道",
+      "seed": 17428,
+      "colorBalls": {
+        "R": 416,
+        "B": 448,
+        "Y": 416,
+        "G": 320
+      },
+      "colorCapacity": {
+        "R": 416,
+        "B": 448,
+        "Y": 416,
+        "G": 320
+      },
+      "vehicles": 9,
+      "garage": [
+        [
+          "L-17428-1:B149",
+          "L-17428-4:Y208",
+          "L-17428-7:Y208"
+        ],
+        [
+          "L-17428-2:G160",
+          "L-17428-5:B150",
+          "L-17428-8:R208"
+        ],
+        [
+          "L-17428-3:R208",
+          "L-17428-6:B149",
+          "L-17428-9:G160"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B",
+        "Y"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17428-3",
+          "color": "R",
+          "column": 3,
+          "capacity": 208
+        },
+        {
+          "tick": 1,
+          "id": "L-17428-1",
+          "color": "B",
+          "column": 1,
+          "capacity": 149
+        },
+        {
+          "tick": 2,
+          "id": "L-17428-4",
+          "color": "Y",
+          "column": 1,
+          "capacity": 208
+        },
+        {
+          "tick": 3,
+          "id": "L-17428-6",
+          "color": "B",
+          "column": 3,
+          "capacity": 149
+        },
+        {
+          "tick": 4,
+          "id": "L-17428-7",
+          "color": "Y",
+          "column": 1,
+          "capacity": 208
+        },
+        {
+          "tick": 361,
+          "id": "L-17428-2",
+          "color": "G",
+          "column": 2,
+          "capacity": 160
+        },
+        {
+          "tick": 1241,
+          "id": "L-17428-9",
+          "color": "G",
+          "column": 3,
+          "capacity": 160
+        },
+        {
+          "tick": 2329,
+          "id": "L-17428-5",
+          "color": "B",
+          "column": 2,
+          "capacity": 150
+        },
+        {
+          "tick": 2330,
+          "id": "L-17428-8",
+          "color": "R",
+          "column": 2,
+          "capacity": 208
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 3589,
+        "dispatches": 9,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "tick": 4469,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "tick": 798,
+          "ballsLeft": 1280,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "tick": 795,
+          "ballsLeft": 1280,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-06.json",
+      "id": "pack-40-06",
+      "name": "第 6 关 · 折返调度",
+      "seed": 17505,
+      "colorBalls": {
+        "R": 384,
+        "B": 412,
+        "Y": 408,
+        "G": 396
+      },
+      "colorCapacity": {
+        "R": 384,
+        "B": 412,
+        "Y": 408,
+        "G": 396
+      },
+      "vehicles": 10,
+      "garage": [
+        [
+          "L-17505-1:G198",
+          "L-17505-4:R128",
+          "L-17505-7:B206",
+          "L-17505-10:R128"
+        ],
+        [
+          "L-17505-2:Y136",
+          "L-17505-5:R128",
+          "L-17505-8:Y136"
+        ],
+        [
+          "L-17505-3:B206",
+          "L-17505-6:Y136",
+          "L-17505-9:G198"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "Y",
+        "B"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17505-3",
+          "color": "B",
+          "column": 3,
+          "capacity": 206
+        },
+        {
+          "tick": 1,
+          "id": "L-17505-2",
+          "color": "Y",
+          "column": 2,
+          "capacity": 136
+        },
+        {
+          "tick": 2,
+          "id": "L-17505-5",
+          "color": "R",
+          "column": 2,
+          "capacity": 128
+        },
+        {
+          "tick": 3,
+          "id": "L-17505-6",
+          "color": "Y",
+          "column": 3,
+          "capacity": 136
+        },
+        {
+          "tick": 4,
+          "id": "L-17505-8",
+          "color": "Y",
+          "column": 2,
+          "capacity": 136
+        },
+        {
+          "tick": 130,
+          "id": "L-17505-1",
+          "color": "G",
+          "column": 1,
+          "capacity": 198
+        },
+        {
+          "tick": 1010,
+          "id": "L-17505-4",
+          "color": "R",
+          "column": 1,
+          "capacity": 128
+        },
+        {
+          "tick": 1660,
+          "id": "L-17505-7",
+          "color": "B",
+          "column": 1,
+          "capacity": 206
+        },
+        {
+          "tick": 1870,
+          "id": "L-17505-9",
+          "color": "G",
+          "column": 3,
+          "capacity": 198
+        },
+        {
+          "tick": 2185,
+          "id": "L-17505-10",
+          "color": "R",
+          "column": 1,
+          "capacity": 128
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 3607,
+        "dispatches": 10,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "won",
+          "tick": 3594,
+          "ballsLeft": 0,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "tick": 5047,
+          "ballsLeft": 627,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "tick": 2135,
+          "ballsLeft": 664,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-07.json",
+      "id": "pack-40-07",
+      "name": "第 7 关 · 多层挡车",
+      "seed": 17601,
+      "colorBalls": {
+        "R": 360,
+        "B": 390,
+        "Y": 460,
+        "G": 390
+      },
+      "colorCapacity": {
+        "R": 360,
+        "B": 390,
+        "Y": 460,
+        "G": 390
+      },
+      "vehicles": 11,
+      "garage": [
+        [
+          "L-17601-1:B130",
+          "L-17601-4:G130",
+          "L-17601-7:B130",
+          "L-17601-10:Y230"
+        ],
+        [
+          "L-17601-2:R120",
+          "L-17601-5:Y230",
+          "L-17601-8:R120",
+          "L-17601-11:R120"
+        ],
+        [
+          "L-17601-3:G130",
+          "L-17601-6:G130",
+          "L-17601-9:B130"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B",
+        "Y"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17601-2",
+          "color": "R",
+          "column": 2,
+          "capacity": 120
+        },
+        {
+          "tick": 1,
+          "id": "L-17601-5",
+          "color": "Y",
+          "column": 2,
+          "capacity": 230
+        },
+        {
+          "tick": 2,
+          "id": "L-17601-8",
+          "color": "R",
+          "column": 2,
+          "capacity": 120
+        },
+        {
+          "tick": 3,
+          "id": "L-17601-1",
+          "color": "B",
+          "column": 1,
+          "capacity": 130
+        },
+        {
+          "tick": 4,
+          "id": "L-17601-11",
+          "color": "R",
+          "column": 2,
+          "capacity": 120
+        },
+        {
+          "tick": 361,
+          "id": "L-17601-4",
+          "color": "G",
+          "column": 1,
+          "capacity": 130
+        },
+        {
+          "tick": 558,
+          "id": "L-17601-7",
+          "color": "B",
+          "column": 1,
+          "capacity": 130
+        },
+        {
+          "tick": 1302,
+          "id": "L-17601-3",
+          "color": "G",
+          "column": 3,
+          "capacity": 130
+        },
+        {
+          "tick": 1348,
+          "id": "L-17601-6",
+          "color": "G",
+          "column": 3,
+          "capacity": 130
+        },
+        {
+          "tick": 1781,
+          "id": "L-17601-10",
+          "color": "Y",
+          "column": 1,
+          "capacity": 230
+        },
+        {
+          "tick": 2956,
+          "id": "L-17601-9",
+          "color": "B",
+          "column": 3,
+          "capacity": 130
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 4285,
+        "dispatches": 11,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "tick": 1695,
+          "ballsLeft": 940,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "tick": 1574,
+          "ballsLeft": 970,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "tick": 1040,
+          "ballsLeft": 1370,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-08.json",
+      "id": "pack-40-08",
+      "name": "第 8 关 · 中心汇流",
+      "seed": 17701,
+      "colorBalls": {
+        "R": 328,
+        "B": 456,
+        "Y": 468,
+        "G": 348
+      },
+      "colorCapacity": {
+        "R": 328,
+        "B": 456,
+        "Y": 468,
+        "G": 348
+      },
+      "vehicles": 12,
+      "garage": [
+        [
+          "L-17701-1:Y156",
+          "L-17701-4:G116",
+          "L-17701-7:B152",
+          "L-17701-10:Y156"
+        ],
+        [
+          "L-17701-2:Y156",
+          "L-17701-5:R109",
+          "L-17701-8:B152",
+          "L-17701-11:G116"
+        ],
+        [
+          "L-17701-3:B152",
+          "L-17701-6:R110",
+          "L-17701-9:G116",
+          "L-17701-12:R109"
+        ]
+      ],
+      "initialBottom": [
+        "B",
+        "R"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17701-3",
+          "color": "B",
+          "column": 3,
+          "capacity": 152
+        },
+        {
+          "tick": 1,
+          "id": "L-17701-6",
+          "color": "R",
+          "column": 3,
+          "capacity": 110
+        },
+        {
+          "tick": 2,
+          "id": "L-17701-9",
+          "color": "G",
+          "column": 3,
+          "capacity": 116
+        },
+        {
+          "tick": 3,
+          "id": "L-17701-12",
+          "color": "R",
+          "column": 3,
+          "capacity": 109
+        },
+        {
+          "tick": 4,
+          "id": "L-17701-2",
+          "color": "Y",
+          "column": 2,
+          "capacity": 156
+        },
+        {
+          "tick": 5,
+          "id": "L-17701-5",
+          "color": "R",
+          "column": 2,
+          "capacity": 109
+        },
+        {
+          "tick": 468,
+          "id": "L-17701-8",
+          "color": "B",
+          "column": 2,
+          "capacity": 152
+        },
+        {
+          "tick": 992,
+          "id": "L-17701-1",
+          "color": "Y",
+          "column": 1,
+          "capacity": 156
+        },
+        {
+          "tick": 1444,
+          "id": "L-17701-11",
+          "color": "G",
+          "column": 2,
+          "capacity": 116
+        },
+        {
+          "tick": 1894,
+          "id": "L-17701-4",
+          "color": "G",
+          "column": 1,
+          "capacity": 116
+        },
+        {
+          "tick": 2073,
+          "id": "L-17701-7",
+          "color": "B",
+          "column": 1,
+          "capacity": 152
+        },
+        {
+          "tick": 2102,
+          "id": "L-17701-10",
+          "color": "Y",
+          "column": 1,
+          "capacity": 156
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 3103,
+        "dispatches": 12,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "tick": 9358,
+          "ballsLeft": 336,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "tick": 2124,
+          "ballsLeft": 964,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "tick": 1658,
+          "ballsLeft": 1072,
+          "peak": 6
+        }
+      ]
+    },
+    {
+      "file": "level-09.json",
+      "id": "pack-40-09",
+      "name": "第 9 关 · 全局接驳",
+      "seed": 17803,
+      "colorBalls": {
+        "R": 360,
+        "B": 432,
+        "Y": 444,
+        "G": 364
+      },
+      "colorCapacity": {
+        "R": 360,
+        "B": 432,
+        "Y": 444,
+        "G": 364
+      },
+      "vehicles": 13,
+      "garage": [
+        [
+          "L-17803-1:R120",
+          "L-17803-4:G121",
+          "L-17803-7:G122",
+          "L-17803-10:Y111",
+          "L-17803-13:R120"
+        ],
+        [
+          "L-17803-2:Y111",
+          "L-17803-5:Y111",
+          "L-17803-8:G121",
+          "L-17803-11:Y111"
+        ],
+        [
+          "L-17803-3:B144",
+          "L-17803-6:B144",
+          "L-17803-9:B144",
+          "L-17803-12:R120"
+        ]
+      ],
+      "initialBottom": [
+        "R",
+        "B",
+        "Y",
+        "G"
+      ],
+      "route": [
+        {
+          "tick": 0,
+          "id": "L-17803-2",
+          "color": "Y",
+          "column": 2,
+          "capacity": 111
+        },
+        {
+          "tick": 1,
+          "id": "L-17803-1",
+          "color": "R",
+          "column": 1,
+          "capacity": 120
+        },
+        {
+          "tick": 2,
+          "id": "L-17803-4",
+          "color": "G",
+          "column": 1,
+          "capacity": 121
+        },
+        {
+          "tick": 3,
+          "id": "L-17803-3",
+          "color": "B",
+          "column": 3,
+          "capacity": 144
+        },
+        {
+          "tick": 4,
+          "id": "L-17803-5",
+          "color": "Y",
+          "column": 2,
+          "capacity": 111
+        },
+        {
+          "tick": 5,
+          "id": "L-17803-8",
+          "color": "G",
+          "column": 2,
+          "capacity": 121
+        },
+        {
+          "tick": 787,
+          "id": "L-17803-6",
+          "color": "B",
+          "column": 3,
+          "capacity": 144
+        },
+        {
+          "tick": 989,
+          "id": "L-17803-7",
+          "color": "G",
+          "column": 1,
+          "capacity": 122
+        },
+        {
+          "tick": 1323,
+          "id": "L-17803-10",
+          "color": "Y",
+          "column": 1,
+          "capacity": 111
+        },
+        {
+          "tick": 1327,
+          "id": "L-17803-13",
+          "color": "R",
+          "column": 1,
+          "capacity": 120
+        },
+        {
+          "tick": 1689,
+          "id": "L-17803-9",
+          "color": "B",
+          "column": 3,
+          "capacity": 144
+        },
+        {
+          "tick": 2823,
+          "id": "L-17803-12",
+          "color": "R",
+          "column": 3,
+          "capacity": 120
+        },
+        {
+          "tick": 3201,
+          "id": "L-17803-11",
+          "color": "Y",
+          "column": 2,
+          "capacity": 111
+        }
+      ],
+      "result": {
+        "status": "won",
+        "peak": 6,
+        "ticks": 4014,
+        "dispatches": 13,
+        "pickups": 1600
+      },
+      "branches": [
+        {
+          "columnPriority": [
+            1,
+            2,
+            3
+          ],
+          "status": "failed",
+          "tick": 914,
+          "ballsLeft": 1420,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            3,
+            2,
+            1
+          ],
+          "status": "failed",
+          "tick": 1035,
+          "ballsLeft": 1144,
+          "peak": 6
+        },
+        {
+          "columnPriority": [
+            2,
+            3,
+            1
+          ],
+          "status": "failed",
+          "tick": 1041,
+          "ballsLeft": 1287,
+          "peak": 6
+        }
+      ]
+    }
+  ]
+}

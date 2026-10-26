@@ -1,0 +1,88 @@
+{
+  "verifiedAt": "2026-10-20T09:01:59.724Z",
+  "successes": [
+    {
+      "id": "tutorial",
+      "result": "won",
+      "ticks": 2365,
+      "ballsLeft": 0,
+      "garageLeft": 0,
+      "roadLeft": 0,
+      "dispatches": [
+        "0:car-0-0",
+        "0:car-1-0"
+      ],
+      "departures": [
+        "1212:car-0-0",
+        "2365:car-1-0"
+      ],
+      "pickups": 1200
+    },
+    {
+      "id": "split",
+      "result": "won",
+      "ticks": 2483,
+      "ballsLeft": 0,
+      "garageLeft": 0,
+      "roadLeft": 0,
+      "dispatches": [
+        "0:car-0-0",
+        "0:car-0-1",
+        "0:car-1-0"
+      ],
+      "departures": [
+        "5:car-0-0",
+        "958:car-1-0",
+        "2483:car-0-1"
+      ],
+      "pickups": 1200
+    },
+    {
+      "id": "parking",
+      "result": "won",
+      "ticks": 1711,
+      "ballsLeft": 0,
+      "garageLeft": 0,
+      "roadLeft": 0,
+      "dispatches": [
+        "0:car-0-0",
+        "0:car-0-1",
+        "0:car-1-0",
+        "0:car-1-1",
+        "0:car-1-2",
+        "0:car-1-3",
+        "829:car-2-0",
+        "938:car-2-1"
+      ],
+      "departures": [
+        "829:car-0-1",
+        "938:car-1-0",
+        "939:car-1-1",
+        "960:car-1-2",
+        "1089:car-1-3",
+        "1125:car-2-0",
+        "1126:car-2-1",
+        "1711:car-0-0"
+      ],
+      "pickups": 1200
+    }
+  ],
+  "wrongRoute": {
+    "id": "parking",
+    "result": "failed",
+    "ticks": 0,
+    "ballsLeft": 1200,
+    "garageLeft": 2,
+    "roadLeft": 6,
+    "dispatches": [
+      "0:car-0-0",
+      "0:car-1-0",
+      "0:car-1-1",
+      "0:car-1-2",
+      "0:car-1-3",
+      "0:car-2-0"
+    ],
+    "departures": [],
+    "pickups": 0
+  }
+}

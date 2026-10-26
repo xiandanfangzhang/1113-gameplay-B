@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>球区图案生成工具 · 彩球接驳</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./pattern-tool.css">
+</head>
+<body>
+  <div class="app-shell pattern-shell">
+    <header class="topbar"><div class="brand"><span class="brand-mark">●</span><div><strong>球区图案生成工具</strong><small>彩球接驳 Demo</small></div></div><a class="tool-back" href="./index.html">← 返回关卡编辑器</a></header>
+    <main>
+      <section class="intro-row"><div><p class="eyebrow">BALL LAYOUT MAKER</p><h1>把图案转换为球区排布</h1><p>上传图片或输入字符图案，设置球区宽高，预览后下载排布文件。</p></div></section>
+      <div class="pattern-layout">
+        <section class="panel pattern-inputs">
+          <h2>输入图案</h2>
+          <div class="pattern-modes" role="group" aria-label="图案来源"><label><input type="radio" name="patternMode" value="image" checked> 上传图片</label><label><input type="radio" name="patternMode" value="text"> 字符图案</label></div>
+          <label id="imageField" class="field">图片文件（PNG、JPEG、WebP 等）<input id="patternImage" type="file" accept="image/*"></label>
+          <label id="textField" class="field hidden">字符图案（R 红、B 蓝、Y 黄、G 绿、O 橙、P 紫、. 空格）<textarea id="patternText" rows="8" spellcheck="false" placeholder="RRBB\nR.OP\nGGYY"></textarea></label>
+          <div class="vehicle-dimensions"><label class="field">宽度（1–100）<input id="patternWidth" type="number" min="1" max="100" step="1" value="60" inputmode="numeric"></label><label class="field">高度（1–60）<input id="patternHeight" type="number" min="1" max="60" step="1" value="20" inputmode="numeric"></label></div>
+          <p class="small-note">图片按比例居中适配球区；透明及接近白色的像素为空格，其余像素映射为最接近的红、蓝、黄、绿、橙、紫。字符图案必须与宽高一致，可用空格或逗号分隔字符。</p>
+          <div class="action-row"><button id="makeLayout" class="primary" type="button">生成排布</button><button id="downloadLayout" type="button" disabled>下载球区排布 JSON</button></div>
+          <p id="patternStatus" class="small-note" role="status" aria-live="polite">请先选择图片或输入字符图案。</p>
+        </section>
+        <section class="panel pattern-result"><div class="section-heading"><div><h2>排布预览</h2><p>每个方格对应编辑器里的一个球格</p></div></div><div class="pattern-canvas-wrap"><canvas id="patternPreview" aria-label="生成的球区排布预览"></canvas></div><p id="patternCounts" class="small-note"></p><p class="small-note">下载后，在 Demo 关卡编辑器点击“导入球区排布”，选择此 JSON。导入会替换球区宽高和小球，保留现有车库、关卡名称与道路车位上限。</p></section>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="./src/pattern-tool.js"></script>
+</body>
+</html>
