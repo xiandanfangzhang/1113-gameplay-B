@@ -95,3 +95,6 @@
 
 备份结果：GitHub 授权完成后，初始提交 435d3df0a2931decd2634637856451999dfe4a73 已成功推送至 origin/main；对话归档随后补充授权确认与上传结果。
 
+
+2026-10-26 对话恢复补充：已提供 对话/换机恢复说明.md 和 scripts/export-conversation.ps1，当前会话更新导出为 Markdown/JSON。换机可由新聊天读取归档接续上下文；不承诺恢复 Codex 原聊天条目。克隆后缺少 ../project.md 时使用 对话/历史工作区摘要.md。
+
